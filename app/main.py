@@ -92,7 +92,7 @@ def worker():
         except Exception as e:
             logger.error(f"Erro no worker: {e}")
             # Em caso de erro, o worker aguarda 30 segundos antes de tentar novamente, evitando loops rápidos em caso de falhas persistentes.
-            time.sleep(30)
+            time.sleep(30) 
 
 
 if __name__ == "__main__":
