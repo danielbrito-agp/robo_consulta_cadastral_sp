@@ -12,7 +12,7 @@ def buscar_clientes_para_processar(cursor):
     return cursor.fetchall()
 
 
-# Essa def não será utilizado, pois a marcação de "processando" poderá afetar o banco em produção. No qual devemos usarmos somente para leitura, sem realizar updates ou inserts.
+# Essa def não será utilizado, pois a marcação de "processando" poderá afetar o banco em produção da C5. No qual devemos usarmos somente para leitura, sem realizar updates ou inserts.
 
 # def marcar_como_processando(cursor, cnpj):
 #     cursor.execute("""
