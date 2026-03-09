@@ -64,10 +64,12 @@ def worker():
 
                     if status_hoje:
                         logger.info(f"Já consultado hoje: {status_hoje}")
+                        status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido)#NEW
 
                         # Se não habilitado → cancela no operacional
                         if status_hoje == "NÃO HABILITADO":
                             # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
+                            status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido) #NEW
                             cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
                             conn_op.commit()
 
@@ -77,12 +79,13 @@ def worker():
                     status = sefaz_service.consultar(cnpj, uf)
 
                     # Salva no DW
-                    status_repository.inserir_status(cursor_dw, cnpj, status, uf)
+                    status_repository.inserir_status(cursor_dw, cnpj, status, uf, nro_pedido)
                     conn_dw.commit()
 
                     # Se não habilitado → cancela no operacional
                     if status == "NÃO HABILITADO":
                         # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
+                        status_repository.inserir_status(cursor_dw, cnpj, status, uf, nro_pedido)#NEW
                         cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
                         conn_op.commit()
 

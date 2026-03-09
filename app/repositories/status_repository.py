@@ -25,10 +25,10 @@ def consultar_status_hoje(cursor, cnpj):
     return row[0] if row else None
 
 
-def inserir_status(cursor, cnpj, status, uf):
+def inserir_status(cursor, cnpj, status, uf, nro_ped_ven):
 
     cursor.execute("""
         INSERT INTO SITUACAO_CADASTRAL_CNPJ
-        (CNPJ, STATUS, UF, DATA_CONSULTADA)
-        VALUES (:1, :2, :3, :4)
-    """, [cnpj, status, uf, datetime.now()])
+        (CNPJ, STATUS, UF, DATA_CONSULTADA, NROPEDVENDA)
+        VALUES (:1, :2, :3, :4, :5)
+    """, [cnpj, status, uf, datetime.now(), nro_ped_ven])
