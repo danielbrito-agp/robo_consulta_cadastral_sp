@@ -2149,3 +2149,241 @@ DPY-6001: Service "c5hml2601.grupopereira.local" is not registered with the list
 2026-03-09 08:46:19,374 | INFO | __main__ | Processando 46248124000191
 2026-03-09 08:46:19,375 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 46248124000191
 2026-03-09 08:46:26,668 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 08:47:36,282 | INFO | __main__ | Processando 59564587000104
+2026-03-09 08:47:36,326 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:47:36,331 | INFO | __main__ | Processando 59564587000104
+2026-03-09 08:47:36,332 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:47:36,333 | INFO | __main__ | Processando 14936299000103
+2026-03-09 08:47:36,335 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:47:36,337 | INFO | __main__ | Processando 14936299000103
+2026-03-09 08:47:36,339 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:47:36,340 | INFO | __main__ | Processando 42851729000111
+2026-03-09 08:47:36,341 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:47:36,343 | INFO | __main__ | Processando 42851729000111
+2026-03-09 08:47:36,344 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:47:36,345 | INFO | __main__ | Processando 30960236000130
+2026-03-09 08:47:36,346 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:47:36,347 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 08:52:37,651 | INFO | __main__ | Processando 59564587000104
+2026-03-09 08:52:37,665 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:52:37,669 | INFO | __main__ | Processando 59564587000104
+2026-03-09 08:52:37,672 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:52:37,674 | INFO | __main__ | Processando 14936299000103
+2026-03-09 08:52:37,678 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:52:37,681 | INFO | __main__ | Processando 14936299000103
+2026-03-09 08:52:37,684 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:52:37,685 | INFO | __main__ | Processando 42851729000111
+2026-03-09 08:52:37,686 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:52:37,687 | INFO | __main__ | Processando 42851729000111
+2026-03-09 08:52:37,688 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:52:37,689 | INFO | __main__ | Processando 30960236000130
+2026-03-09 08:52:37,691 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:52:37,691 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 08:57:38,925 | INFO | __main__ | Processando 59564587000104
+2026-03-09 08:57:38,932 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:57:38,937 | INFO | __main__ | Processando 59564587000104
+2026-03-09 08:57:38,940 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:57:38,943 | INFO | __main__ | Processando 14936299000103
+2026-03-09 08:57:38,945 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 14936299000103
+2026-03-09 08:57:46,232 | INFO | __main__ | Processando 14936299000103
+2026-03-09 08:57:46,234 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:57:46,236 | INFO | __main__ | Processando 42851729000111
+2026-03-09 08:57:46,238 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:57:46,239 | INFO | __main__ | Processando 42851729000111
+2026-03-09 08:57:46,242 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:57:46,243 | INFO | __main__ | Processando 30960236000130
+2026-03-09 08:57:46,245 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 08:57:46,246 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:02:47,328 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:02:47,356 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:02:47,360 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:02:47,363 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:02:47,366 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:02:47,369 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:02:47,371 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:02:47,374 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:02:47,376 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:02:47,377 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:02:47,379 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:02:47,380 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:02:47,382 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:02:47,384 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:02:47,386 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:07:48,591 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:07:48,597 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:07:48,599 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:07:48,601 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:07:48,603 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:07:48,606 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:07:48,608 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:07:48,611 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:07:48,613 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:07:48,616 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 23467040000143
+2026-03-09 09:07:54,152 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:07:54,154 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:07:54,156 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:07:54,158 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:07:54,159 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:07:54,161 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:07:54,163 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:12:55,394 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:12:55,397 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:12:55,414 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:12:55,416 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:12:55,417 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:12:55,419 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:12:55,420 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:12:55,422 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:12:55,423 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:12:55,424 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:12:55,426 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:12:55,427 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:12:55,428 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:12:55,429 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:12:55,431 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:12:55,432 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:12:55,433 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:17:56,600 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:17:56,625 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:17:56,627 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:17:56,630 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:17:56,631 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:17:56,633 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:17:56,634 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:17:56,635 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:17:56,636 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:17:56,638 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:17:56,639 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:17:56,640 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:17:56,641 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:17:56,641 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:17:56,642 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:17:56,643 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:17:56,644 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:22:58,011 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:22:58,048 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:22:58,050 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:22:58,052 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:22:58,053 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:22:58,054 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:22:58,056 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:22:58,057 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:22:58,058 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:22:58,059 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:22:58,059 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:22:58,060 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:22:58,061 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:22:58,063 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:22:58,064 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:22:58,065 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:22:58,065 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:27:59,373 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:27:59,399 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:27:59,401 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:27:59,402 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:27:59,404 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:27:59,405 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:27:59,406 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:27:59,407 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:27:59,408 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:27:59,409 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:27:59,409 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:27:59,410 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:27:59,411 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:27:59,412 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:27:59,413 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:27:59,414 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:27:59,415 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:33:00,730 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:33:00,763 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:33:00,813 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:33:00,840 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:33:00,846 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:33:00,849 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:33:00,850 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:33:00,861 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:33:00,862 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:33:00,864 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:33:00,865 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:33:00,867 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:33:00,868 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:33:00,870 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:33:00,877 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:33:00,878 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:33:00,879 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:38:02,085 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:38:02,092 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:38:02,105 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:38:02,107 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:38:02,108 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:38:02,110 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:38:02,110 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:38:02,112 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:38:02,113 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:38:02,114 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:38:02,115 | INFO | __main__ | Processando 61239988000130
+2026-03-09 09:38:02,116 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 61239988000130
+2026-03-09 09:38:09,432 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:38:09,434 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:38:09,435 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:38:09,437 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:38:09,438 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:38:09,440 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:38:09,441 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:43:10,826 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:43:10,833 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,846 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:43:10,851 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,854 | INFO | __main__ | Processando 61239988000130
+2026-03-09 09:43:10,856 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,857 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:43:10,858 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,859 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:43:10,861 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,862 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:43:10,864 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,865 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:43:10,866 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,867 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:43:10,869 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,870 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:43:10,872 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:43:10,873 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:48:11,889 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:48:11,894 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,898 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:48:11,902 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,904 | INFO | __main__ | Processando 61239988000130
+2026-03-09 09:48:11,907 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,910 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:48:11,913 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,915 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:48:11,919 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,920 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:48:11,923 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,925 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:48:11,927 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,929 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:48:11,932 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,934 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:48:11,938 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:48:11,940 | INFO | __main__ | Ciclo finalizado.
+2026-03-09 09:53:12,953 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:53:12,961 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:12,975 | INFO | __main__ | Processando 59564587000104
+2026-03-09 09:53:12,978 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:12,981 | INFO | __main__ | Processando 61239988000130
+2026-03-09 09:53:12,984 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:12,986 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:53:12,989 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:12,991 | INFO | __main__ | Processando 14936299000103
+2026-03-09 09:53:12,993 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:12,995 | INFO | __main__ | Processando 23467040000143
+2026-03-09 09:53:12,997 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:12,999 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:53:13,002 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:13,003 | INFO | __main__ | Processando 42851729000111
+2026-03-09 09:53:13,006 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:13,007 | INFO | __main__ | Processando 30960236000130
+2026-03-09 09:53:13,010 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-09 09:53:13,012 | INFO | __main__ | Ciclo finalizado.
