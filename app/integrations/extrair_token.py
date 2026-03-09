@@ -39,7 +39,7 @@ def baixa_segredo_pelo_titulo(access_token, titulo):
 
     print("Autenticação realizada com sucesso.")
 
-    url_find = f"https://grupopereira.ps.beyondtrustcloud.com/BeyondTrust/api/public/v3/secrets-safe/secrets?path={os.getenv("PATH_CLIENT")}&separator=/&title={titulo}&version=3.1"
+    url_find = f'https://grupopereira.ps.beyondtrustcloud.com/BeyondTrust/api/public/v3/secrets-safe/secrets?path={os.getenv("PATH_CLIENT")}&separator=/&title={titulo}&version=3.1'
     resp = requests.get(url_find, headers=headers_auth)
     resp.raise_for_status()
     
