@@ -2,4 +2,6 @@
 __pycache__/
 *.pyc
 /antigo
-/logs
+
+# Logs da aplicacao
+app/logs/*.log
