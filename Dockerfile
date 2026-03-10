@@ -9,6 +9,8 @@ RUN apt-get update && apt-get install -y \
     libaio-dev \
     tzdata \
     python3-dev \
+    libxml2-dev \
+    libxslt1-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Atualiza pip
