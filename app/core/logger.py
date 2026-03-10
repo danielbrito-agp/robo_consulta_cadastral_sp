@@ -1,6 +1,8 @@
 import logging
 import os
+from datetime import datetime
 from logging.handlers import RotatingFileHandler
+from app.core.timezone import UTC_MINUS_4
 
 '''
 Este módulo é responsável por configurar o logging da aplicação. Ele define um logger global que pode ser importado e
@@ -27,6 +29,7 @@ def setup_logger():
     formatter = logging.Formatter(
         "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
     )
+    formatter.converter = lambda ts: datetime.fromtimestamp(ts, tz=UTC_MINUS_4).timetuple()
 
     # Log em arquivo com rotação
     file_handler = RotatingFileHandler(

@@ -6,6 +6,8 @@ services:
       context: .
       dockerfile: Dockerfile
     env_file: .env
+    environment:
+      TZ: Etc/GMT+4
     networks:
       consulta-cadastral-rede:
         ipv4_address: 10.36.0.10

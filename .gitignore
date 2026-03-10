@@ -5,3 +5,4 @@ __pycache__/
 
 # Logs da aplicacao
 app/logs/*.log
+teste_chamada.py

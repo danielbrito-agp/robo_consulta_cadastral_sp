@@ -1,4 +1,4 @@
-from datetime import datetime
+from app.core.timezone import now_utc_minus_4_naive
 
 '''
 Este módulo é responsável por interagir com a tabela SITUACAO_CADASTRAL_CNPJ, onde armazenamos o status cadastral consultado na SEFAZ.
@@ -12,23 +12,25 @@ O mesmo vale para a função inserir_status, onde os valores são passados como 
 '''
 
 def consultar_status_hoje(cursor, cnpj):
+    data_referencia = now_utc_minus_4_naive()
 
     cursor.execute("""
         SELECT STATUS
         FROM SITUACAO_CADASTRAL_CNPJ
         WHERE CNPJ = :1 
-          AND TRUNC(DATA_CONSULTADA) = TRUNC(SYSDATE)
+          AND TRUNC(DATA_CONSULTADA) = TRUNC(:2)
         ORDER BY DATA_CONSULTADA DESC
-    """, [cnpj])
+    """, [cnpj, data_referencia])
 
     row = cursor.fetchone()
     return row[0] if row else None
 
 
 def inserir_status(cursor, cnpj, status, uf, nro_ped_ven):
+    data_consultada = now_utc_minus_4_naive()
 
     cursor.execute("""
         INSERT INTO SITUACAO_CADASTRAL_CNPJ
         (CNPJ, STATUS, UF, DATA_CONSULTADA, NROPEDVENDA)
         VALUES (:1, :2, :3, :4, :5)
-    """, [cnpj, status, uf, datetime.now(), nro_ped_ven])
+    """, [cnpj, status, uf, data_consultada, nro_ped_ven])
