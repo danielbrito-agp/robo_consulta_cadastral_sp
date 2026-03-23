@@ -51,6 +51,15 @@ def worker():
                 for cnpj, uf, nro_pedido, nro_empresa in clientes:
 
                     logger.info(f"Processando {cnpj}")
+                    
+                    # Verifica se já existe consulta para o pedido, evitando processar o mesmo pedido mais de uma vez"
+                    ja_existe_pedido = status_repository.existe_consulta_pedido(cursor_dw, cnpj, nro_pedido)
+
+                    if ja_existe_pedido:
+                        logger.info(
+                            f"CNPJ {cnpj} já possui consulta para o pedido {nro_pedido}. Pulando processamento."
+                        )
+                        continue
 
                     # Consulta no DW
                     status_hoje = status_repository.consultar_status_hoje(cursor_dw, cnpj)

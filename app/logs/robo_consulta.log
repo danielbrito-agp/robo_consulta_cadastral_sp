@@ -2465,3 +2465,85 @@ DPY-6001: Service "c5hml2601.grupopereira.local" is not registered with the list
 2026-03-23 10:37:18,527 | INFO | __main__ | Já consultado hoje: HABILITADO
 2026-03-23 10:37:18,527 | INFO | __main__ | Status cadastral para 21287106000198 já consultado hoje: HABILITADO
 2026-03-23 10:37:18,529 | INFO | __main__ | Ciclo finalizado.
+2026-03-23 14:45:14,792 | INFO | __main__ | Processando 16038747000179
+2026-03-23 14:45:14,818 | INFO | __main__ | CNPJ 16038747000179 já possui consulta para o pedido 21250511. Pulando processamento.
+2026-03-23 14:45:14,819 | INFO | __main__ | Processando 59405686000143
+2026-03-23 14:45:14,820 | INFO | __main__ | CNPJ 59405686000143 já possui consulta para o pedido 21249382. Pulando processamento.
+2026-03-23 14:45:14,820 | INFO | __main__ | Processando 36259468000142
+2026-03-23 14:45:14,821 | INFO | __main__ | CNPJ 36259468000142 já possui consulta para o pedido 21251688. Pulando processamento.
+2026-03-23 14:45:14,822 | INFO | __main__ | Processando 02588052000156
+2026-03-23 14:45:14,823 | INFO | __main__ | CNPJ 02588052000156 já possui consulta para o pedido 21249980. Pulando processamento.
+2026-03-23 14:45:14,824 | INFO | __main__ | Processando 01972074000152
+2026-03-23 14:45:14,825 | INFO | __main__ | CNPJ 01972074000152 já possui consulta para o pedido 21250032. Pulando processamento.
+2026-03-23 14:45:14,825 | INFO | __main__ | Processando 73399826000149
+2026-03-23 14:45:14,826 | INFO | __main__ | CNPJ 73399826000149 já possui consulta para o pedido 21252164. Pulando processamento.
+2026-03-23 14:45:14,827 | INFO | __main__ | Processando 86888708000146
+2026-03-23 14:45:14,828 | INFO | __main__ | CNPJ 86888708000146 já possui consulta para o pedido 21251645. Pulando processamento.
+2026-03-23 14:45:14,829 | INFO | __main__ | Processando 22243891000140
+2026-03-23 14:45:14,830 | INFO | __main__ | CNPJ 22243891000140 já possui consulta para o pedido 21251785. Pulando processamento.
+2026-03-23 14:45:14,831 | INFO | __main__ | Processando 52093647000109
+2026-03-23 14:45:14,832 | INFO | __main__ | CNPJ 52093647000109 já possui consulta para o pedido 21248340. Pulando processamento.
+2026-03-23 14:45:14,833 | INFO | __main__ | Processando 52093647000109
+2026-03-23 14:45:14,834 | INFO | __main__ | CNPJ 52093647000109 já possui consulta para o pedido 21248341. Pulando processamento.
+2026-03-23 14:45:14,835 | INFO | __main__ | Processando 15244127000123
+2026-03-23 14:45:14,837 | INFO | __main__ | CNPJ 15244127000123 já possui consulta para o pedido 21252339. Pulando processamento.
+2026-03-23 14:45:14,838 | INFO | __main__ | Processando 12476120000149
+2026-03-23 14:45:14,840 | INFO | __main__ | CNPJ 12476120000149 já possui consulta para o pedido 21248240. Pulando processamento.
+2026-03-23 14:45:14,840 | INFO | __main__ | Processando 20247119000170
+2026-03-23 14:45:14,841 | INFO | __main__ | CNPJ 20247119000170 já possui consulta para o pedido 21249453. Pulando processamento.
+2026-03-23 14:45:14,841 | INFO | __main__ | Processando 27547235000154
+2026-03-23 14:45:14,842 | INFO | __main__ | CNPJ 27547235000154 já possui consulta para o pedido 21250850. Pulando processamento.
+2026-03-23 14:45:14,843 | INFO | __main__ | Processando 33691909000192
+2026-03-23 14:45:14,846 | INFO | __main__ | CNPJ 33691909000192 já possui consulta para o pedido 21252527. Pulando processamento.
+2026-03-23 14:45:14,847 | INFO | __main__ | Processando 32796370000173
+2026-03-23 14:45:14,849 | INFO | __main__ | CNPJ 32796370000173 já possui consulta para o pedido 21249966. Pulando processamento.
+2026-03-23 14:45:14,849 | INFO | __main__ | Processando 03691736000141
+2026-03-23 14:45:14,851 | INFO | __main__ | CNPJ 03691736000141 já possui consulta para o pedido 21250541. Pulando processamento.
+2026-03-23 14:45:14,852 | INFO | __main__ | Processando 26849075000135
+2026-03-23 14:45:14,853 | INFO | __main__ | CNPJ 26849075000135 já possui consulta para o pedido 21247901. Pulando processamento.
+2026-03-23 14:45:14,854 | INFO | __main__ | Processando 15560527000148
+2026-03-23 14:45:14,856 | INFO | __main__ | CNPJ 15560527000148 já possui consulta para o pedido 21253222. Pulando processamento.
+2026-03-23 14:45:14,857 | INFO | __main__ | Processando 21287106000198
+2026-03-23 14:45:14,858 | INFO | __main__ | CNPJ 21287106000198 já possui consulta para o pedido 21248436. Pulando processamento.
+2026-03-23 14:45:14,858 | INFO | __main__ | Ciclo finalizado.
+2026-03-23 14:50:15,849 | INFO | __main__ | Processando 16038747000179
+2026-03-23 14:50:15,874 | INFO | __main__ | CNPJ 16038747000179 já possui consulta para o pedido 21250511. Pulando processamento.
+2026-03-23 14:50:15,874 | INFO | __main__ | Processando 59405686000143
+2026-03-23 14:50:15,875 | INFO | __main__ | CNPJ 59405686000143 já possui consulta para o pedido 21249382. Pulando processamento.
+2026-03-23 14:50:15,875 | INFO | __main__ | Processando 01972074000152
+2026-03-23 14:50:15,876 | INFO | __main__ | CNPJ 01972074000152 já possui consulta para o pedido 21250032. Pulando processamento.
+2026-03-23 14:50:15,877 | INFO | __main__ | Processando 73399826000149
+2026-03-23 14:50:15,878 | INFO | __main__ | CNPJ 73399826000149 já possui consulta para o pedido 21252164. Pulando processamento.
+2026-03-23 14:50:15,878 | INFO | __main__ | Processando 27547235000154
+2026-03-23 14:50:15,879 | INFO | __main__ | CNPJ 27547235000154 já possui consulta para o pedido 21250850. Pulando processamento.
+2026-03-23 14:50:15,879 | INFO | __main__ | Processando 33691909000192
+2026-03-23 14:50:15,880 | INFO | __main__ | CNPJ 33691909000192 já possui consulta para o pedido 21252527. Pulando processamento.
+2026-03-23 14:50:15,880 | INFO | __main__ | Processando 86888708000146
+2026-03-23 14:50:15,882 | INFO | __main__ | CNPJ 86888708000146 já possui consulta para o pedido 21251645. Pulando processamento.
+2026-03-23 14:50:15,883 | INFO | __main__ | Processando 22243891000140
+2026-03-23 14:50:15,883 | INFO | __main__ | CNPJ 22243891000140 já possui consulta para o pedido 21251785. Pulando processamento.
+2026-03-23 14:50:15,884 | INFO | __main__ | Processando 32796370000173
+2026-03-23 14:50:15,885 | INFO | __main__ | CNPJ 32796370000173 já possui consulta para o pedido 21249966. Pulando processamento.
+2026-03-23 14:50:15,885 | INFO | __main__ | Processando 36259468000142
+2026-03-23 14:50:15,886 | INFO | __main__ | CNPJ 36259468000142 já possui consulta para o pedido 21251688. Pulando processamento.
+2026-03-23 14:50:15,886 | INFO | __main__ | Processando 52093647000109
+2026-03-23 14:50:15,888 | INFO | __main__ | CNPJ 52093647000109 já possui consulta para o pedido 21248340. Pulando processamento.
+2026-03-23 14:50:15,888 | INFO | __main__ | Processando 52093647000109
+2026-03-23 14:50:15,889 | INFO | __main__ | CNPJ 52093647000109 já possui consulta para o pedido 21248341. Pulando processamento.
+2026-03-23 14:50:15,889 | INFO | __main__ | Processando 02588052000156
+2026-03-23 14:50:15,890 | INFO | __main__ | CNPJ 02588052000156 já possui consulta para o pedido 21249980. Pulando processamento.
+2026-03-23 14:50:15,890 | INFO | __main__ | Processando 15244127000123
+2026-03-23 14:50:15,891 | INFO | __main__ | CNPJ 15244127000123 já possui consulta para o pedido 21252339. Pulando processamento.
+2026-03-23 14:50:15,892 | INFO | __main__ | Processando 12476120000149
+2026-03-23 14:50:15,893 | INFO | __main__ | CNPJ 12476120000149 já possui consulta para o pedido 21248240. Pulando processamento.
+2026-03-23 14:50:15,893 | INFO | __main__ | Processando 20247119000170
+2026-03-23 14:50:15,894 | INFO | __main__ | CNPJ 20247119000170 já possui consulta para o pedido 21249453. Pulando processamento.
+2026-03-23 14:50:15,894 | INFO | __main__ | Processando 03691736000141
+2026-03-23 14:50:15,895 | INFO | __main__ | CNPJ 03691736000141 já possui consulta para o pedido 21250541. Pulando processamento.
+2026-03-23 14:50:15,895 | INFO | __main__ | Processando 26849075000135
+2026-03-23 14:50:15,896 | INFO | __main__ | CNPJ 26849075000135 já possui consulta para o pedido 21247901. Pulando processamento.
+2026-03-23 14:50:15,896 | INFO | __main__ | Processando 15560527000148
+2026-03-23 14:50:15,897 | INFO | __main__ | CNPJ 15560527000148 já possui consulta para o pedido 21253222. Pulando processamento.
+2026-03-23 14:50:15,897 | INFO | __main__ | Processando 21287106000198
+2026-03-23 14:50:15,898 | INFO | __main__ | CNPJ 21287106000198 já possui consulta para o pedido 21248436. Pulando processamento.
+2026-03-23 14:50:15,899 | INFO | __main__ | Ciclo finalizado.

@@ -25,6 +25,17 @@ def consultar_status_hoje(cursor, cnpj):
     row = cursor.fetchone()
     return row[0] if row else None
 
+def existe_consulta_pedido(cursor, cnpj, nro_ped_ven):
+    cursor.execute("""
+        SELECT 1
+        FROM SITUACAO_CADASTRAL_CNPJ
+        WHERE CNPJ = :1
+          AND NROPEDVENDA = :2
+        FETCH FIRST 1 ROWS ONLY
+    """, [cnpj, nro_ped_ven])
+
+    return cursor.fetchone() is not None
+
 
 def inserir_status(cursor, cnpj, status, uf, nro_ped_ven):
     data_consultada = now_utc_minus_4_naive()
