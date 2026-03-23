@@ -64,14 +64,22 @@ def worker():
 
                     if status_hoje:
                         logger.info(f"Já consultado hoje: {status_hoje}")
-                        status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido)#NEW
+                        
+                        #Caso o retorno de status seja um erro ou tag não encontrada, tenta nova consulta    
+                        if status_hoje.startswith("ERRO") or status_hoje == "TAG_NAO_ENCONTRADA":
+                            logger.warning(f"Consulta anterior para {cnpj} retornou {status_hoje}. Tentando nova consulta.")
 
-                        # Se não habilitado → cancela no operacional
-                        if status_hoje == "NÃO HABILITADO":
-                            # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
-                            status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido) #NEW
-                            cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
-                            conn_op.commit()
+                        else:
+                            logger.info(f"Status cadastral para {cnpj} já consultado hoje: {status_hoje}")
+                            status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido)#NEW
+                            conn_dw.commit()
+
+                         # Se não habilitado → cancela no operacional
+                            if status_hoje == "NÃO HABILITADO":
+                                # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
+                                status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido) #NEW
+                                cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
+                                conn_op.commit()
 
                         continue
 

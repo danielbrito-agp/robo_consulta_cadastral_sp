@@ -2432,3 +2432,36 @@ DPY-6001: Service "c5hml2601.grupopereira.local" is not registered with the list
 2026-03-10 09:17:50,956 | INFO | __main__ | Processando 48885964000190
 2026-03-10 09:17:50,957 | INFO | __main__ | Já consultado hoje: HABILITADO
 2026-03-10 09:17:50,958 | INFO | __main__ | Ciclo finalizado.
+2026-03-23 10:37:04,638 | INFO | __main__ | Processando 16038747000179
+2026-03-23 10:37:04,641 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 16038747000179
+2026-03-23 10:37:18,494 | INFO | __main__ | Processando 59405686000143
+2026-03-23 10:37:18,496 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,496 | INFO | __main__ | Status cadastral para 59405686000143 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,499 | INFO | __main__ | Processando 01972074000152
+2026-03-23 10:37:18,500 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,500 | INFO | __main__ | Status cadastral para 01972074000152 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,502 | INFO | __main__ | Processando 32796370000173
+2026-03-23 10:37:18,503 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,503 | INFO | __main__ | Status cadastral para 32796370000173 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,505 | INFO | __main__ | Processando 52093647000109
+2026-03-23 10:37:18,506 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,506 | INFO | __main__ | Status cadastral para 52093647000109 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,508 | INFO | __main__ | Processando 52093647000109
+2026-03-23 10:37:18,509 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,509 | INFO | __main__ | Status cadastral para 52093647000109 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,511 | INFO | __main__ | Processando 02588052000156
+2026-03-23 10:37:18,512 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,513 | INFO | __main__ | Status cadastral para 02588052000156 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,515 | INFO | __main__ | Processando 12476120000149
+2026-03-23 10:37:18,517 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,517 | INFO | __main__ | Status cadastral para 12476120000149 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,519 | INFO | __main__ | Processando 20247119000170
+2026-03-23 10:37:18,521 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,521 | INFO | __main__ | Status cadastral para 20247119000170 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,523 | INFO | __main__ | Processando 26849075000135
+2026-03-23 10:37:18,524 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,524 | INFO | __main__ | Status cadastral para 26849075000135 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,526 | INFO | __main__ | Processando 21287106000198
+2026-03-23 10:37:18,527 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-03-23 10:37:18,527 | INFO | __main__ | Status cadastral para 21287106000198 já consultado hoje: HABILITADO
+2026-03-23 10:37:18,529 | INFO | __main__ | Ciclo finalizado.

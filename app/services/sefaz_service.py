@@ -30,7 +30,7 @@ class SefazService:
         try:
             logger.info(f"Iniciando consulta para CNPJ {cnpj}")
 
-            time.sleep(random.randint(4, 8))
+            time.sleep(random.randint(4, 16))  # Simula tempo de resposta da SEFAZ
 
             resultado = realizar.realizar_consulta_cadastral(
                 self.cert,
