@@ -26,33 +26,40 @@ class SefazService:
 
     @retry()
     def consultar(self, cnpj, uf):
-
-        try:
-            logger.info(f"Iniciando consulta para CNPJ {cnpj}")
-
-            time.sleep(random.randint(4, 16))  # Simula tempo de resposta da SEFAZ
-
+        def _executar_consulta():
+            time.sleep(random.randint(4, 16))
             resultado = realizar.realizar_consulta_cadastral(
                 self.cert,
                 self.key,
                 cnpj,
                 uf
             )
-
             if resultado.status_code == 200:
                 root = ET.fromstring(resultado.text.encode("utf-8"))
                 csit = root.find(".//{*}cSit")
-
                 if csit is not None:
                     return "HABILITADO" if csit.text == "1" else "NÃO HABILITADO"
-
                 return "TAG_NAO_ENCONTRADA"
             
             return f"ERRO_HTTP_{resultado.status_code}"
         
-            # logger.info(f"Consulta concluída para {cnpj}")
-            # return resultado
-        
+        '''Nessa etapa o robô tentará realizar novamente a consulta em caso de falhas,
+          como erros de rede ou respostas inesperadas, aumentando a robustez do serviço.
+           Mas caso ocorra falha novamente, o robô irá registrar a falha no log e encerrar o processo para evitar loops infinitos.'''
+        try:
+            logger.info(f"Iniciando consulta para CNPJ {cnpj}")
+            resultado = _executar_consulta()
+
+            if resultado.startswith("ERRO_HTTP_"):
+                logger.warning(f"Primeira tentativa falhou para CNPJ {cnpj}: {resultado}. Aguardando 50s para nova tentativa...")
+                time.sleep(50)
+                logger.info(f"Realizando nova tentativa para CNPJ {cnpj}")
+                resultado = _executar_consulta()
+                if resultado.startswith("ERRO_HTTP_"):
+                    logger.warning(f"Segunda tentativa também falhou para CNPJ {cnpj}: {resultado}. Encerrando.")
+
+            return resultado
+
         except Exception as e:
             logger.error(f"Erro ao consultar CNPJ {cnpj}: {e}", exc_info=True)
-            raise    
+            raise 
