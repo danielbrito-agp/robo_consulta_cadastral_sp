@@ -10,7 +10,7 @@ services:
       TZ: Etc/GMT+4
     networks:
       consulta-cadastral-rede:
-        ipv4_address: 10.36.0.10
+        ipv4_address: 10.48.0.10
     volumes:
       - consulta-cadastral-data:/app/logs
 
@@ -22,5 +22,5 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: 10.36.0.0/16
-          gateway: 10.36.0.1
+        - subnet: 10.48.0.0/16
+          gateway: 10.48.0.1
