@@ -1,6 +1,6 @@
 services:
   robo_consulta_cadastral:
-    container_name: consulta_cadastral_cpnj
+    container_name: consulta_cadastral_cnpj_sp
     restart: always
     build:
       context: .

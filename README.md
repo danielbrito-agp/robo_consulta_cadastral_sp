@@ -1,6 +1,6 @@
-# Robô de Consulta Cadastral SEFAZ
+# Robô de Consulta Cadastral SEFAZ - SP
 
-Automação em Python para consulta cadastral de CNPJ na SEFAZ, com integração entre banco operacional (Consinco/C5), Data Warehouse (DW) e gestão segura de certificado digital via BeyondTrust.
+Automação em Python para consulta cadastral de CNPJ do estado de SP na SEFAZ, com integração entre banco operacional (Consinco/C5), Data Warehouse (DW) e gestão segura de certificado digital via BeyondTrust.
 
 ## Visão geral
 
@@ -95,7 +95,7 @@ python -m app.main
 
 1. O worker inicializa logger e `SefazService` (carrega certificado e chave uma única vez).
 2. Abre conexão com operacional e DW.
-3. Busca clientes na tabela `consinco.gpv_clientesefaz` (filtro atual por `UF = 'MS'`).
+3. Busca clientes na tabela `consinco.gpv_clientesefaz` (filtro atual por `UF = 'SP'`).
 4. Para cada cliente:
    - Verifica se há status de hoje em `SITUACAO_CADASTRAL_CNPJ`.
    - Se não houver, consulta SEFAZ e grava status no DW.

@@ -3035,3 +3035,401 @@ DPY-6001: Service "c5hml2601.grupopereira.local" is not registered with the list
 2026-03-24 13:57:43,314 | INFO | __main__ | Processando 27018853000379
 2026-03-24 13:57:43,315 | INFO | __main__ | CNPJ 27018853000379 já possui consulta para o pedido 21260283. Pulando processamento.
 2026-03-24 13:57:43,315 | INFO | __main__ | Ciclo finalizado.
+2026-04-10 16:19:01,273 | INFO | __main__ | Processando 56150251000107
+2026-04-10 16:19:01,285 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 56150251000107
+2026-04-10 16:19:05,610 | INFO | __main__ | Ciclo finalizado.
+2026-04-10 16:32:17,564 | INFO | __main__ | Processando 56150251000107
+2026-04-10 16:32:17,566 | INFO | __main__ | CNPJ 56150251000107 já possui consulta para o pedido 21421359. Pulando processamento.
+2026-04-10 16:32:17,566 | INFO | __main__ | Ciclo finalizado.
+2026-04-10 16:35:40,853 | INFO | __main__ | Processando 49184166000102
+2026-04-10 16:35:40,859 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 49184166000102
+2026-04-10 16:35:52,262 | INFO | __main__ | Processando 04668796000106
+2026-04-10 16:35:52,266 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 04668796000106
+2026-04-10 16:36:00,554 | INFO | __main__ | Processando 23238816000153
+2026-04-10 16:36:00,557 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 23238816000153
+2026-04-10 16:36:13,844 | INFO | __main__ | Processando 53464660000190
+2026-04-10 16:36:13,846 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 53464660000190
+2026-04-10 16:36:26,247 | INFO | __main__ | Processando 71450233000134
+2026-04-10 16:36:26,249 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 71450233000134
+2026-04-10 16:36:40,572 | INFO | __main__ | Processando 43359900000132
+2026-04-10 16:36:40,575 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 43359900000132
+2026-04-10 16:36:47,952 | INFO | __main__ | Processando 65473522000156
+2026-04-10 16:36:47,956 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 65473522000156
+2026-04-10 16:36:56,289 | INFO | __main__ | Processando 32946483000108
+2026-04-10 16:36:56,292 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 32946483000108
+2026-04-10 16:37:04,660 | INFO | __main__ | Processando 28798980000139
+2026-04-10 16:37:04,663 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 28798980000139
+2026-04-10 16:37:18,106 | INFO | __main__ | Processando 54044109000150
+2026-04-10 16:37:18,109 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 54044109000150
+2026-04-10 16:37:32,411 | INFO | __main__ | Processando 09474190000153
+2026-04-10 16:37:32,414 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 09474190000153
+2026-04-10 16:37:45,879 | INFO | __main__ | Processando 34656570000156
+2026-04-10 16:37:45,882 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 34656570000156
+2026-04-10 16:37:50,331 | INFO | __main__ | Processando 12417832000197
+2026-04-10 16:37:50,335 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 12417832000197
+2026-04-10 16:37:58,648 | INFO | __main__ | Processando 26193865000105
+2026-04-10 16:37:58,652 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26193865000105
+2026-04-10 16:38:08,963 | INFO | __main__ | Processando 28612536000187
+2026-04-10 16:38:08,966 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 28612536000187
+2026-04-10 16:38:23,370 | INFO | __main__ | Processando 05980119000191
+2026-04-10 16:38:23,376 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 05980119000191
+2026-04-10 16:38:34,760 | INFO | __main__ | Processando 04298165000142
+2026-04-10 16:38:34,763 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 04298165000142
+2026-04-10 16:38:47,153 | INFO | __main__ | Processando 29511613000175
+2026-04-10 16:38:47,157 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 29511613000175
+2026-04-10 16:38:55,472 | INFO | __main__ | Processando 09449432000159
+2026-04-10 16:38:55,475 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 09449432000159
+2026-04-10 16:39:10,925 | INFO | __main__ | Processando 35678979000136
+2026-04-10 16:39:10,928 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 35678979000136
+2026-04-10 16:39:22,234 | INFO | __main__ | Processando 40980805000163
+2026-04-10 16:39:22,237 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 40980805000163
+2026-04-10 16:39:34,554 | INFO | __main__ | Processando 14435775000102
+2026-04-10 16:39:34,556 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 14435775000102
+2026-04-10 16:39:41,930 | INFO | __main__ | Processando 03205493000437
+2026-04-10 16:39:41,933 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 03205493000437
+2026-04-10 16:39:57,256 | INFO | __main__ | Processando 17548808000100
+2026-04-10 16:39:57,260 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 17548808000100
+2026-04-10 16:40:06,625 | INFO | __main__ | Processando 50443337000141
+2026-04-10 16:40:06,628 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 50443337000141
+2026-04-10 16:40:23,034 | INFO | __main__ | Processando 20423607000191
+2026-04-10 16:40:23,037 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 20423607000191
+2026-04-10 16:40:34,370 | INFO | __main__ | Processando 24028889000183
+2026-04-10 16:40:34,374 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 24028889000183
+2026-04-10 16:40:45,740 | INFO | __main__ | Processando 46318818000158
+2026-04-10 16:40:45,743 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 46318818000158
+2026-04-10 16:40:52,141 | INFO | __main__ | Processando 34524319000138
+2026-04-10 16:40:52,144 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 34524319000138
+2026-04-10 16:40:59,523 | INFO | __main__ | Processando 32100205000135
+2026-04-10 16:40:59,526 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 32100205000135
+2026-04-10 16:41:13,878 | INFO | __main__ | Processando 22369667000107
+2026-04-10 16:41:13,880 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 22369667000107
+2026-04-10 16:41:19,186 | INFO | __main__ | Processando 29211112000173
+2026-04-10 16:41:19,189 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 29211112000173
+2026-04-10 16:41:32,501 | INFO | __main__ | Processando 12797048000151
+2026-04-10 16:41:32,505 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 12797048000151
+2026-04-10 16:41:45,957 | INFO | __main__ | Processando 00213206000108
+2026-04-10 16:41:45,961 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 00213206000108
+2026-04-10 16:41:57,286 | INFO | __main__ | Processando 04344855000190
+2026-04-10 16:41:57,288 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 04344855000190
+2026-04-10 16:42:03,773 | INFO | __main__ | Processando 20693638000162
+2026-04-10 16:42:03,776 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 20693638000162
+2026-04-10 16:42:18,253 | INFO | __main__ | Processando 12116845000126
+2026-04-10 16:42:18,256 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 12116845000126
+2026-04-10 16:42:34,621 | INFO | __main__ | Processando 04370788000189
+2026-04-10 16:42:34,623 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 04370788000189
+2026-04-10 16:42:47,054 | INFO | __main__ | Processando 04370788000189
+2026-04-10 16:42:47,057 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-10 16:42:47,057 | INFO | __main__ | Status cadastral para 04370788000189 já consultado hoje: HABILITADO
+2026-04-10 16:42:47,059 | INFO | __main__ | Processando 02656461000142
+2026-04-10 16:42:47,062 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 02656461000142
+2026-04-10 16:42:54,541 | INFO | __main__ | Processando 28729737000169
+2026-04-10 16:42:54,544 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 28729737000169
+2026-04-10 16:43:02,046 | INFO | __main__ | Processando 03205493001328
+2026-04-10 16:43:02,053 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 03205493001328
+2026-04-10 16:43:13,495 | INFO | __main__ | Processando 10386822000106
+2026-04-10 16:43:13,498 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 10386822000106
+2026-04-10 16:43:20,098 | INFO | __main__ | Processando 01350367000106
+2026-04-10 16:43:20,102 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 01350367000106
+2026-04-10 16:43:27,582 | INFO | __main__ | Processando 50443337000222
+2026-04-10 16:43:27,588 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 50443337000222
+2026-04-10 16:43:35,148 | INFO | __main__ | Processando 06123856000130
+2026-04-10 16:43:35,152 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06123856000130
+2026-04-10 16:43:49,593 | INFO | __main__ | Processando 55428671000140
+2026-04-10 16:43:49,597 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 55428671000140
+2026-04-10 16:43:59,049 | INFO | __main__ | Processando 58171219000133
+2026-04-10 16:43:59,052 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 58171219000133
+2026-04-10 16:44:03,553 | INFO | __main__ | Processando 62617709000198
+2026-04-10 16:44:03,557 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 62617709000198
+2026-04-10 16:44:18,034 | INFO | __main__ | Processando 10403374000101
+2026-04-10 16:44:18,038 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 10403374000101
+2026-04-10 16:44:29,591 | INFO | __main__ | Processando 09098225000105
+2026-04-10 16:44:29,594 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 09098225000105
+2026-04-10 16:44:40,041 | INFO | __main__ | Processando 39786663000119
+2026-04-10 16:44:40,045 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 39786663000119
+2026-04-10 16:44:50,524 | INFO | __main__ | Processando 10742082000101
+2026-04-10 16:44:50,527 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 10742082000101
+2026-04-10 16:44:59,059 | INFO | __main__ | Processando 11621559000155
+2026-04-10 16:44:59,062 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 11621559000155
+2026-04-10 16:45:03,664 | INFO | __main__ | Processando 40758007000191
+2026-04-10 16:45:03,667 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 40758007000191
+2026-04-10 16:45:20,243 | INFO | __main__ | Processando 23496729000104
+2026-04-10 16:45:20,246 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 23496729000104
+2026-04-10 16:45:31,900 | INFO | __main__ | Processando 03205493001832
+2026-04-10 16:45:31,904 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 03205493001832
+2026-04-10 16:45:39,418 | INFO | __main__ | Processando 03205493001751
+2026-04-10 16:45:39,422 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 03205493001751
+2026-04-10 16:45:55,910 | INFO | __main__ | Processando 05923002000176
+2026-04-10 16:45:55,915 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 05923002000176
+2026-04-10 16:46:00,514 | INFO | __main__ | Processando 54232930000108
+2026-04-10 16:46:00,517 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 54232930000108
+2026-04-10 16:46:08,047 | INFO | __main__ | Processando 43737778000190
+2026-04-10 16:46:08,050 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 43737778000190
+2026-04-10 16:46:22,609 | INFO | __main__ | Processando 05300183000184
+2026-04-10 16:46:22,615 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 05300183000184
+2026-04-10 16:46:33,129 | INFO | __main__ | Processando 22297372000164
+2026-04-10 16:46:33,132 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 22297372000164
+2026-04-10 16:46:40,768 | INFO | __main__ | Processando 21986409000107
+2026-04-10 16:46:40,770 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 21986409000107
+2026-04-10 16:46:57,327 | INFO | __main__ | Processando 32302326000160
+2026-04-10 16:46:57,331 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 32302326000160
+2026-04-10 16:47:02,801 | INFO | __main__ | Processando 36518772000167
+2026-04-10 16:47:02,803 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 36518772000167
+2026-04-10 16:47:17,335 | INFO | __main__ | Processando 36258274000122
+2026-04-10 16:47:17,337 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 36258274000122
+2026-04-10 16:47:30,928 | INFO | __main__ | Processando 03205493000194
+2026-04-10 16:47:30,930 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 03205493000194
+2026-04-10 16:47:40,401 | INFO | __main__ | Processando 38321643000100
+2026-04-10 16:47:40,404 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 38321643000100
+2026-04-10 16:47:48,945 | INFO | __main__ | Processando 39878324000162
+2026-04-10 16:47:48,948 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 39878324000162
+2026-04-10 16:47:54,565 | INFO | __main__ | Processando 54839485000807
+2026-04-10 16:47:54,569 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 54839485000807
+2026-04-10 16:48:08,137 | INFO | __main__ | Processando 49852079000178
+2026-04-10 16:48:08,139 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 49852079000178
+2026-04-10 16:48:14,748 | INFO | __main__ | Processando 43352118000191
+2026-04-10 16:48:14,752 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 43352118000191
+2026-04-10 16:48:23,310 | INFO | __main__ | Processando 06254063000150
+2026-04-10 16:48:23,313 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06254063000150
+2026-04-10 16:48:28,772 | INFO | __main__ | Processando 56150251000107
+2026-04-10 16:48:28,773 | INFO | __main__ | CNPJ 56150251000107 já possui consulta para o pedido 21421359. Pulando processamento.
+2026-04-10 16:48:28,774 | INFO | __main__ | Processando 26760551000147
+2026-04-10 16:48:28,776 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26760551000147
+2026-04-10 16:48:42,280 | INFO | __main__ | Processando 55742232000107
+2026-04-10 16:48:42,283 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 55742232000107
+2026-04-10 16:48:47,851 | INFO | __main__ | Processando 43788623000183
+2026-04-10 16:48:47,865 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 43788623000183
+2026-04-10 16:49:00,493 | INFO | __main__ | Processando 39331486000186
+2026-04-10 16:49:00,497 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 39331486000186
+2026-04-10 16:49:11,037 | INFO | __main__ | Processando 43788623000183
+2026-04-10 16:49:11,040 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-10 16:49:11,041 | INFO | __main__ | Status cadastral para 43788623000183 já consultado hoje: HABILITADO
+2026-04-10 16:49:11,044 | INFO | __main__ | Processando 49446429000104
+2026-04-10 16:49:11,046 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 49446429000104
+2026-04-10 16:49:26,609 | INFO | __main__ | Processando 67230409000175
+2026-04-10 16:49:26,612 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 67230409000175
+2026-04-10 16:49:35,195 | INFO | __main__ | Processando 17245822000135
+2026-04-10 16:49:35,199 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 17245822000135
+2026-04-10 16:49:40,792 | INFO | __main__ | Processando 60477945000120
+2026-04-10 16:49:40,797 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 60477945000120
+2026-04-10 16:49:45,357 | INFO | __main__ | Processando 26605599000180
+2026-04-10 16:49:45,360 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26605599000180
+2026-04-10 16:49:53,002 | INFO | __main__ | Processando 02591706000109
+2026-04-10 16:49:53,006 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 02591706000109
+2026-04-10 16:50:00,511 | INFO | __main__ | Processando 37413601000136
+2026-04-10 16:50:00,515 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 37413601000136
+2026-04-10 16:50:17,044 | INFO | __main__ | Processando 57128986000105
+2026-04-10 16:50:17,048 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 57128986000105
+2026-04-10 16:50:29,590 | INFO | __main__ | Processando 04181245000113
+2026-04-10 16:50:29,594 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 04181245000113
+2026-04-10 16:50:37,220 | INFO | __main__ | Processando 45622024000544
+2026-04-10 16:50:37,223 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 45622024000544
+2026-04-10 16:50:46,747 | INFO | __main__ | Processando 71259782000479
+2026-04-10 16:50:46,751 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 71259782000479
+2026-04-10 16:50:56,261 | INFO | __main__ | Processando 28795416000162
+2026-04-10 16:50:56,265 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 28795416000162
+2026-04-10 16:51:06,823 | INFO | __main__ | Processando 30278952000132
+2026-04-10 16:51:06,826 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 30278952000132
+2026-04-10 16:51:19,413 | INFO | __main__ | Processando 97547508000146
+2026-04-10 16:51:19,417 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 97547508000146
+2026-04-10 16:51:29,982 | INFO | __main__ | Processando 18714836000113
+2026-04-10 16:51:29,990 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 18714836000113
+2026-04-10 16:51:46,481 | INFO | __main__ | Processando 02927229000363
+2026-04-10 16:51:46,485 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 02927229000363
+2026-04-10 16:52:03,087 | INFO | __main__ | Processando 43375145000180
+2026-04-10 16:52:03,091 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 43375145000180
+2026-04-10 16:52:08,643 | INFO | __main__ | Processando 53985190000100
+2026-04-10 16:52:08,646 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 53985190000100
+2026-04-10 16:52:14,151 | INFO | __main__ | Processando 08953727000103
+2026-04-10 16:52:14,156 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 08953727000103
+2026-04-10 16:52:23,803 | INFO | __main__ | Processando 38253377000125
+2026-04-10 16:52:23,805 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 38253377000125
+2026-04-10 16:52:36,392 | INFO | __main__ | Processando 55522818000166
+2026-04-10 16:52:36,394 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 55522818000166
+2026-04-10 16:52:48,940 | INFO | __main__ | Processando 29194221000120
+2026-04-10 16:52:48,943 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 29194221000120
+2026-04-10 16:52:55,605 | INFO | __main__ | Processando 29194221000120
+2026-04-10 16:52:55,608 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-10 16:52:55,608 | INFO | __main__ | Status cadastral para 29194221000120 já consultado hoje: HABILITADO
+2026-04-10 16:52:55,611 | INFO | __main__ | Processando 04168558000131
+2026-04-10 16:52:55,613 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 04168558000131
+2026-04-10 16:53:08,071 | INFO | __main__ | Processando 71850135000194
+2026-04-10 16:53:08,073 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 71850135000194
+2026-04-10 16:53:19,601 | INFO | __main__ | Processando 45671801000117
+2026-04-10 16:53:19,603 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 45671801000117
+2026-04-10 16:53:25,091 | INFO | __main__ | Processando 02664757000105
+2026-04-10 16:53:25,094 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 02664757000105
+2026-04-10 16:53:29,568 | INFO | __main__ | Processando 02419907000115
+2026-04-10 16:53:29,572 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 02419907000115
+2026-04-10 16:53:34,039 | INFO | __main__ | Processando 49590625000140
+2026-04-10 16:53:34,042 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 49590625000140
+2026-04-10 16:53:40,606 | INFO | __main__ | Processando 09376437000360
+2026-04-10 16:53:40,611 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 09376437000360
+2026-04-10 16:53:51,189 | INFO | __main__ | Processando 25082815000198
+2026-04-10 16:53:51,192 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 25082815000198
+2026-04-10 16:54:07,802 | INFO | __main__ | Processando 01704553000198
+2026-04-10 16:54:07,805 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 01704553000198
+2026-04-10 16:54:18,388 | INFO | __main__ | Processando 17050986000107
+2026-04-10 16:54:18,390 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 17050986000107
+2026-04-10 16:54:28,963 | INFO | __main__ | Processando 39957254000138
+2026-04-10 16:54:28,966 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 39957254000138
+2026-04-10 16:54:42,456 | INFO | __main__ | Processando 17161348000163
+2026-04-10 16:54:42,459 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 17161348000163
+2026-04-10 16:54:49,912 | INFO | __main__ | Processando 01272410000154
+2026-04-10 16:54:49,916 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 01272410000154
+2026-04-10 16:55:02,405 | INFO | __main__ | Processando 04584758000175
+2026-04-10 16:55:02,408 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 04584758000175
+2026-04-10 16:55:08,910 | INFO | __main__ | Processando 43544831000137
+2026-04-10 16:55:08,913 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 43544831000137
+2026-04-10 16:55:14,577 | INFO | __main__ | Processando 17847228000114
+2026-04-10 16:55:14,581 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 17847228000114
+2026-04-10 16:55:24,128 | INFO | __main__ | Processando 65674616000193
+2026-04-10 16:55:24,132 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 65674616000193
+2026-04-10 16:55:28,605 | INFO | __main__ | Processando 13528950000135
+2026-04-10 16:55:28,608 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 13528950000135
+2026-04-10 16:55:38,207 | INFO | __main__ | Processando 18170372000202
+2026-04-10 16:55:38,210 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 18170372000202
+2026-04-10 16:55:47,828 | INFO | __main__ | Processando 15060730000155
+2026-04-10 16:55:47,832 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 15060730000155
+2026-04-10 16:55:56,421 | INFO | __main__ | Processando 62840628000152
+2026-04-10 16:55:56,424 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 62840628000152
+2026-04-10 16:56:07,877 | INFO | __main__ | Processando 39293845000158
+2026-04-10 16:56:07,880 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 39293845000158
+2026-04-10 16:56:15,414 | INFO | __main__ | Processando 17847228000114
+2026-04-10 16:56:15,417 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-10 16:56:15,418 | INFO | __main__ | Status cadastral para 17847228000114 já consultado hoje: HABILITADO
+2026-04-10 16:56:15,421 | INFO | __main__ | Processando 11082749000222
+2026-04-10 16:56:15,423 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 11082749000222
+2026-04-10 16:56:29,898 | INFO | __main__ | Processando 24615987000117
+2026-04-10 16:56:29,901 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 24615987000117
+2026-04-10 16:56:35,354 | INFO | __main__ | Processando 55313035000253
+2026-04-10 16:56:35,361 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 55313035000253
+2026-04-10 16:56:42,978 | INFO | __main__ | Processando 46273333000195
+2026-04-10 16:56:42,982 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 46273333000195
+2026-04-10 16:56:57,566 | INFO | __main__ | Processando 20533011000144
+2026-04-10 16:56:57,569 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 20533011000144
+2026-04-10 16:57:07,035 | INFO | __main__ | Processando 07840898000155
+2026-04-10 16:57:07,038 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07840898000155
+2026-04-10 16:57:17,648 | INFO | __main__ | Processando 49771899000135
+2026-04-10 16:57:17,653 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 49771899000135
+2026-04-10 16:57:23,235 | INFO | __main__ | Processando 01921236000123
+2026-04-10 16:57:23,239 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 01921236000123
+2026-04-10 16:57:29,839 | INFO | __main__ | Processando 11760454000268
+2026-04-10 16:57:29,842 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 11760454000268
+2026-04-10 16:57:40,288 | INFO | __main__ | Processando 52968953000141
+2026-04-10 16:57:40,291 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 52968953000141
+2026-04-10 16:57:54,780 | INFO | __main__ | Processando 07400140000104
+2026-04-10 16:57:54,783 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07400140000104
+2026-04-10 16:58:00,392 | INFO | __main__ | Processando 02927229000100
+2026-04-10 16:58:00,395 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 02927229000100
+2026-04-10 16:58:06,906 | INFO | __main__ | Processando 58757165000192
+2026-04-10 16:58:06,909 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 58757165000192
+2026-04-10 16:58:20,208 | INFO | __main__ | Processando 20908490000136
+2026-04-10 16:58:20,211 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 20908490000136
+2026-04-10 16:58:25,505 | INFO | __main__ | Processando 11561953000145
+2026-04-10 16:58:25,507 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 11561953000145
+2026-04-10 16:58:30,961 | INFO | __main__ | Processando 07526998000101
+2026-04-10 16:58:30,963 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07526998000101
+2026-04-10 16:58:40,358 | INFO | __main__ | Processando 37595155000128
+2026-04-10 16:58:40,360 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 37595155000128
+2026-04-10 16:58:50,662 | INFO | __main__ | Processando 28039665000209
+2026-04-10 16:58:50,665 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 28039665000209
+2026-04-10 16:59:00,088 | INFO | __main__ | Processando 09055511000185
+2026-04-10 16:59:00,091 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 09055511000185
+2026-04-10 16:59:15,404 | INFO | __main__ | Processando 17553890000161
+2026-04-10 16:59:15,407 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 17553890000161
+2026-04-10 16:59:31,803 | INFO | __main__ | Processando 03833348000158
+2026-04-10 16:59:31,807 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 03833348000158
+2026-04-10 16:59:48,209 | INFO | __main__ | Processando 11394743000100
+2026-04-10 16:59:48,212 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 11394743000100
+2026-04-10 16:59:56,588 | INFO | __main__ | Processando 47962587000183
+2026-04-10 16:59:56,590 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 47962587000183
+2026-04-10 17:00:03,961 | INFO | __main__ | Processando 23330697000164
+2026-04-10 17:00:03,965 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 23330697000164
+2026-04-10 17:00:15,302 | INFO | __main__ | Processando 37039116000144
+2026-04-10 17:00:15,305 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 37039116000144
+2026-04-10 17:00:21,631 | INFO | __main__ | Processando 19340833000120
+2026-04-10 17:00:21,634 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 19340833000120
+2026-04-10 17:00:32,030 | INFO | __main__ | Processando 60979259000158
+2026-04-10 17:00:32,032 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 60979259000158
+2026-04-10 17:00:45,453 | INFO | __main__ | Processando 57291403000154
+2026-04-10 17:00:45,456 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 57291403000154
+2026-04-10 17:00:56,802 | INFO | __main__ | Processando 06171020000705
+2026-04-10 17:00:56,806 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06171020000705
+2026-04-10 17:01:11,188 | INFO | __main__ | Processando 36330699000103
+2026-04-10 17:01:11,192 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 36330699000103
+2026-04-10 17:01:25,566 | INFO | __main__ | Processando 44906709000126
+2026-04-10 17:01:25,569 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 44906709000126
+2026-04-10 17:01:39,912 | INFO | __main__ | Processando 17161348000163
+2026-04-10 17:01:39,916 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-10 17:01:39,916 | INFO | __main__ | Status cadastral para 17161348000163 já consultado hoje: HABILITADO
+2026-04-10 17:01:39,918 | INFO | __main__ | Processando 74450156000100
+2026-04-10 17:01:39,921 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 74450156000100
+2026-04-10 17:01:48,262 | INFO | __main__ | Processando 21676627000137
+2026-04-10 17:01:48,266 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 21676627000137
+2026-04-10 17:02:03,570 | INFO | __main__ | Processando 57769046000197
+2026-04-10 17:02:03,574 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 57769046000197
+2026-04-10 17:02:14,877 | INFO | __main__ | Processando 21757134000121
+2026-04-10 17:02:14,880 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 21757134000121
+2026-04-10 17:02:26,335 | INFO | __main__ | Processando 12411227000109
+2026-04-10 17:02:26,337 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 12411227000109
+2026-04-10 17:02:40,739 | INFO | __main__ | Processando 46410216000126
+2026-04-10 17:02:40,742 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 46410216000126
+2026-04-10 17:02:56,041 | INFO | __main__ | Processando 19785189000101
+2026-04-10 17:02:56,045 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 19785189000101
+2026-04-10 17:03:10,695 | INFO | __main__ | Processando 49184166000102
+2026-04-10 17:03:10,704 | INFO | __main__ | CNPJ 49184166000102 já possui consulta para o pedido 21416274. Pulando processamento.
+2026-04-10 17:03:10,704 | INFO | __main__ | Processando 04668796000106
+2026-04-10 17:03:10,706 | INFO | __main__ | CNPJ 04668796000106 já possui consulta para o pedido 21415839. Pulando processamento.
+2026-04-10 17:03:10,707 | INFO | __main__ | Processando 23238816000153
+2026-04-10 17:03:10,708 | INFO | __main__ | CNPJ 23238816000153 já possui consulta para o pedido 21406914. Pulando processamento.
+2026-04-10 17:03:10,709 | INFO | __main__ | Processando 53464660000190
+2026-04-10 17:03:10,710 | INFO | __main__ | CNPJ 53464660000190 já possui consulta para o pedido 21411181. Pulando processamento.
+2026-04-10 17:03:10,711 | INFO | __main__ | Processando 05923002000176
+2026-04-10 17:03:10,714 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-10 17:03:10,714 | INFO | __main__ | Status cadastral para 05923002000176 já consultado hoje: HABILITADO
+2026-04-10 17:03:10,728 | INFO | __main__ | Processando 71450233000134
+2026-04-10 17:03:10,730 | INFO | __main__ | CNPJ 71450233000134 já possui consulta para o pedido 21419277. Pulando processamento.
+2026-04-10 17:03:10,730 | INFO | __main__ | Processando 43359900000132
+2026-04-10 17:03:10,731 | INFO | __main__ | CNPJ 43359900000132 já possui consulta para o pedido 21421851. Pulando processamento.
+2026-04-10 17:03:10,731 | INFO | __main__ | Processando 65473522000156
+2026-04-10 17:03:10,732 | INFO | __main__ | CNPJ 65473522000156 já possui consulta para o pedido 21421700. Pulando processamento.
+2026-04-10 17:03:10,732 | INFO | __main__ | Processando 32946483000108
+2026-04-10 17:03:10,733 | INFO | __main__ | CNPJ 32946483000108 já possui consulta para o pedido 21408982. Pulando processamento.
+2026-04-10 17:03:10,734 | INFO | __main__ | Processando 54044109000150
+2026-04-10 17:03:10,735 | INFO | __main__ | CNPJ 54044109000150 já possui consulta para o pedido 21421971. Pulando processamento.
+2026-04-10 17:03:10,735 | INFO | __main__ | Processando 09474190000153
+2026-04-10 17:03:10,736 | INFO | __main__ | CNPJ 09474190000153 já possui consulta para o pedido 21421847. Pulando processamento.
+2026-04-10 17:03:10,737 | INFO | __main__ | Processando 34656570000156
+2026-04-10 17:03:10,738 | INFO | __main__ | CNPJ 34656570000156 já possui consulta para o pedido 21415954. Pulando processamento.
+2026-04-10 17:03:10,738 | INFO | __main__ | Processando 12417832000197
+2026-04-10 17:03:10,739 | INFO | __main__ | CNPJ 12417832000197 já possui consulta para o pedido 21421703. Pulando processamento.
+2026-04-10 17:03:10,740 | INFO | __main__ | Processando 05142233000142
+2026-04-10 17:03:10,741 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 05142233000142
+2026-04-10 17:03:25,171 | INFO | __main__ | Processando 05980119000191
+2026-04-10 17:03:25,172 | INFO | __main__ | CNPJ 05980119000191 já possui consulta para o pedido 21417333. Pulando processamento.
+2026-04-10 17:03:25,173 | INFO | __main__ | Processando 29511613000175
+2026-04-10 17:03:25,175 | INFO | __main__ | CNPJ 29511613000175 já possui consulta para o pedido 21403550. Pulando processamento.
+2026-04-10 17:03:25,175 | INFO | __main__ | Processando 35678979000136
+2026-04-10 17:03:25,176 | INFO | __main__ | CNPJ 35678979000136 já possui consulta para o pedido 21418418. Pulando processamento.
+2026-04-10 17:03:25,177 | INFO | __main__ | Processando 40980805000163
+2026-04-10 17:03:25,179 | INFO | __main__ | CNPJ 40980805000163 já possui consulta para o pedido 21418547. Pulando processamento.
+2026-04-10 17:03:25,179 | INFO | __main__ | Processando 14435775000102
+2026-04-10 17:03:25,181 | INFO | __main__ | CNPJ 14435775000102 já possui consulta para o pedido 21420582. Pulando processamento.
+2026-04-10 17:03:25,182 | INFO | __main__ | Processando 03205493000437
+2026-04-10 17:03:25,184 | INFO | __main__ | CNPJ 03205493000437 já possui consulta para o pedido 21417491. Pulando processamento.
+2026-04-10 17:03:25,184 | INFO | __main__ | Processando 50443337000141
+2026-04-10 17:03:25,186 | INFO | __main__ | CNPJ 50443337000141 já possui consulta para o pedido 21408402. Pulando processamento.
+2026-04-10 17:03:25,187 | INFO | __main__ | Processando 20423607000191
+2026-04-10 17:03:25,188 | INFO | __main__ | CNPJ 20423607000191 já possui consulta para o pedido 21419224. Pulando processamento.
+2026-04-10 17:03:25,189 | INFO | __main__ | Processando 24028889000183
+2026-04-10 17:03:25,191 | INFO | __main__ | CNPJ 24028889000183 já possui consulta para o pedido 21409526. Pulando processamento.
+2026-04-10 17:03:25,191 | INFO | __main__ | Processando 32100205000135
+2026-04-10 17:03:25,193 | INFO | __main__ | CNPJ 32100205000135 já possui consulta para o pedido 21420579. Pulando processamento.
+2026-04-10 17:03:25,193 | INFO | __main__ | Processando 22369667000107
+2026-04-10 17:03:25,194 | INFO | __main__ | CNPJ 22369667000107 já possui consulta para o pedido 21419849. Pulando processamento.
+2026-04-10 17:03:25,194 | INFO | __main__ | Processando 29211112000173
+2026-04-10 17:03:25,195 | INFO | __main__ | CNPJ 29211112000173 já possui consulta para o pedido 21404943. Pulando processamento.
+2026-04-10 17:03:25,195 | INFO | __main__ | Processando 12797048000151
+2026-04-10 17:03:25,196 | INFO | __main__ | CNPJ 12797048000151 já possui consulta para o pedido 21411313. Pulando processamento.
+2026-04-10 17:03:25,197 | INFO | __main__ | Processando 15511823000159
+2026-04-10 17:03:25,199 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 15511823000159

@@ -21,8 +21,8 @@ class SefazService:
     '''
     def __init__(self):
         token = obter_token()
-        self.key = baixa_segredo_pelo_titulo(token, "pertech_ecnpj_key")
-        self.cert = baixa_segredo_pelo_titulo(token, "pertech_ecnpj_cert")
+        self.key = baixa_segredo_pelo_titulo(token, "key_sdb_09477652011716")
+        self.cert = baixa_segredo_pelo_titulo(token, "cert_sdb_09477652011716")
 
     @retry()
     def consultar(self, cnpj, uf):

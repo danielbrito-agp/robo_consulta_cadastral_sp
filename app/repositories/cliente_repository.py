@@ -5,7 +5,7 @@ def buscar_clientes_para_processar(cursor):
     sql = f"""
         SELECT CNPJ, UF, NROPEDVENDA, NROEMPRESA
         FROM consinco.gpv_clientesefaz
-        WHERE UF = 'MS' 
+        WHERE UF = 'SP'
     """
 
     cursor.execute(sql)

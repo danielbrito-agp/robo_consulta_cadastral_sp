@@ -85,6 +85,7 @@ def worker():
 
                          # Se não habilitado → cancela no operacional
                             if status_hoje == "NÃO HABILITADO":
+                                #usar esse print para ver casos que poderiam ser cancelados (uso de teste)
                                 # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
                                 status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido) #NEW
                                 cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
@@ -101,6 +102,7 @@ def worker():
 
                     # Se não habilitado → cancela no operacional
                     if status == "NÃO HABILITADO":
+                        #usar esse print para ver casos que poderiam ser cancelados (uso de teste)
                         # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
                         status_repository.inserir_status(cursor_dw, cnpj, status, uf, nro_pedido)#NEW
                         cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
