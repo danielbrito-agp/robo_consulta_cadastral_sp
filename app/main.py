@@ -6,6 +6,7 @@ from app.repositories import cliente_repository, status_repository
 from app.services.sefaz_service import SefazService
 from app.services.cancelamento_service import cancelar_pedido
 from app.core.logger import setup_logger
+from app.services.regras_regime import extrair_status_e_regime, aplicar_regras_tributacao
 import logging
 
 
@@ -27,7 +28,7 @@ O worker também interage com os repositórios para buscar os clientes a serem p
 def worker():
 
     sefaz_service = SefazService()
-
+    
     while True:
         try:
             with get_operacional_connection() as conn_op, \
@@ -48,7 +49,7 @@ def worker():
                     time.sleep(settings.INTERVALO_SEM_DADOS)
                     continue
 
-                for cnpj, uf, nro_pedido, nro_empresa in clientes:
+                for cnpj, uf, nro_pedido, nro_empresa, cod_reg_tributacao, _regime_tributacao, seq_pessoa in clientes:
 
                     logger.info(f"Processando {cnpj}")
                     
@@ -80,31 +81,64 @@ def worker():
 
                         else:
                             logger.info(f"Status cadastral para {cnpj} já consultado hoje: {status_hoje}")
-                            status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido)#NEW
+
+                            # Reaproveita o status já consultado no dia para registrar o pedido atual no DW.
+                            status_simples_hoje = status_repository.consultar_status_simples(cursor_dw, cnpj)
+                            status_c5_hoje = status_repository.consultar_status_c5_hoje(cursor_dw, cnpj) or "NAO_ALTERADO"
+                            status_repository.inserir_status(
+                                cursor_dw,
+                                cnpj,
+                                status_hoje,
+                                uf,
+                                nro_pedido,
+                                status_simples_hoje,
+                                status_c5_hoje
+                            )
                             conn_dw.commit()
 
-                         # Se não habilitado → cancela no operacional
-                            if status_hoje == "NÃO HABILITADO":
+                            # Se não habilitado → cancela no operacional
+                            if status_hoje == "NAO_HABILITADO":
                                 #usar esse print para ver casos que poderiam ser cancelados (uso de teste)
                                 # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
-                                status_repository.inserir_status(cursor_dw, cnpj, status_hoje, uf, nro_pedido) #NEW
                                 cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
                                 conn_op.commit()
 
                         continue
 
                     # Nova consulta SEFAZ
-                    status = sefaz_service.consultar(cnpj, uf)
+                    resultado_consulta = sefaz_service.consultar(cnpj, uf)
+                    status, status_simples = extrair_status_e_regime(resultado_consulta)
+
+                    status_c5 = "NAO_ALTERADO"
+
+                    # Aplica regras de tributação (DELETE/INSERT na tabela de regiões tributárias)
+                    if status_simples:
+                        alterou_c5 = aplicar_regras_tributacao(
+                            status_simples,
+                            cod_reg_tributacao,
+                            seq_pessoa,
+                            cursor_op
+                        )
+                        if alterou_c5:
+                            status_c5 = "ALTERADO"
+                        conn_op.commit()
 
                     # Salva no DW
-                    status_repository.inserir_status(cursor_dw, cnpj, status, uf, nro_pedido)
+                    status_repository.inserir_status(
+                        cursor_dw,
+                        cnpj,
+                        status,
+                        uf,
+                        nro_pedido,
+                        status_simples,
+                        status_c5
+                    )
                     conn_dw.commit()
 
                     # Se não habilitado → cancela no operacional
-                    if status == "NÃO HABILITADO":
+                    if status == "NAO_HABILITADO":
                         #usar esse print para ver casos que poderiam ser cancelados (uso de teste)
                         # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
-                        status_repository.inserir_status(cursor_dw, cnpj, status, uf, nro_pedido)#NEW
                         cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
                         conn_op.commit()
 

@@ -34,14 +34,40 @@ class SefazService:
                 cnpj,
                 uf
             )
+            '''
+            Nessa etapa, o robô processará a resposta da SEFAZ, extraindo as informações relevantes do XML retornado.
+             Ele verificará se a resposta foi bem-sucedida (código HTTP 200) e, em caso afirmativo, tentará extrair as tags <xRegApur> e <cSit>.
+              Com base no conteúdo dessas tags, o robô determinará o regime tributário e a situação cadastral do CNPJ consultado.
+               Se as tags não forem encontradas ou estiverem vazias, o robô registrará essa informação para análise posterior.
+                Caso a resposta da SEFAZ não seja bem-sucedida, o robô registrará o código de erro HTTP para diagnóstico.
+            '''
             if resultado.status_code == 200:
-                root = ET.fromstring(resultado.text.encode("utf-8"))
+                root = ET.fromstring(resultado.text)
+
+                xregapur = root.find(".//{*}xRegApur")
                 csit = root.find(".//{*}cSit")
-                if csit is not None:
-                    return "HABILITADO" if csit.text == "1" else "NÃO HABILITADO"
+
+                regime = None
+                situacao = None
+
+                if xregapur is not None and xregapur.text:
+                    regime_txt = xregapur.text.strip().upper()
+                    regime = "SIMPLES_NACIONAL" if regime_txt == "SIMPLES NACIONAL" else "NAO_SIMPLES_NACIONAL"
+
+                if csit is not None and csit.text:
+                    situacao = "HABILITADO" if csit.text.strip() == "1" else "NAO_HABILITADO"
+
+                if regime and situacao:
+                    return f"{regime}|{situacao}"
+                if regime:
+                    return regime
+                if situacao:
+                    return situacao
+
                 return "TAG_NAO_ENCONTRADA"
-            
+
             return f"ERRO_HTTP_{resultado.status_code}"
+            # ...existing code...
         
         '''Nessa etapa o robô tentará realizar novamente a consulta em caso de falhas,
           como erros de rede ou respostas inesperadas, aumentando a robustez do serviço.

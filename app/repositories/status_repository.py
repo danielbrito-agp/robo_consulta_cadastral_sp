@@ -37,11 +37,39 @@ def existe_consulta_pedido(cursor, cnpj, nro_ped_ven):
     return cursor.fetchone() is not None
 
 
-def inserir_status(cursor, cnpj, status, uf, nro_ped_ven):
+def inserir_status(cursor, cnpj, status, uf, nro_ped_ven, status_simples, status_c5):
     data_consultada = now_utc_minus_4_naive()
 
     cursor.execute("""
         INSERT INTO SITUACAO_CADASTRAL_CNPJ
-        (CNPJ, STATUS, UF, DATA_CONSULTADA, NROPEDVENDA)
-        VALUES (:1, :2, :3, :4, :5)
-    """, [cnpj, status, uf, data_consultada, nro_ped_ven])
+        (CNPJ, STATUS, UF, DATA_CONSULTADA, NROPEDVENDA, STATUS_SIMPLES, STATUS_C5)
+        VALUES (:1, :2, :3, :4, :5, :6, :7)
+    """, [cnpj, status, uf, data_consultada, nro_ped_ven, status_simples, status_c5])
+
+# olha o status atual de regime do cliente
+def consultar_status_simples(cursor, cnpj):
+    cursor.execute("""
+        SELECT STATUS_SIMPLES
+        FROM SITUACAO_CADASTRAL_CNPJ
+        WHERE CNPJ = :1
+        ORDER BY DATA_CONSULTADA DESC
+    """, [cnpj])
+
+    row = cursor.fetchone()
+    return row[0] if row else None
+
+
+def consultar_status_c5_hoje(cursor, cnpj):
+    data_referencia = now_utc_minus_4_naive()
+
+    cursor.execute("""
+        SELECT STATUS_C5
+        FROM SITUACAO_CADASTRAL_CNPJ
+        WHERE CNPJ = :1
+          AND TRUNC(DATA_CONSULTADA) = TRUNC(:2)
+        ORDER BY DATA_CONSULTADA DESC
+    """, [cnpj, data_referencia])
+
+    row = cursor.fetchone()
+    return row[0] if row else None
+

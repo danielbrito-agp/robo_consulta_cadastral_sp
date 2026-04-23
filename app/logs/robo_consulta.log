@@ -3433,3 +3433,612 @@ DPY-6001: Service "c5hml2601.grupopereira.local" is not registered with the list
 2026-04-10 17:03:25,196 | INFO | __main__ | CNPJ 12797048000151 já possui consulta para o pedido 21411313. Pulando processamento.
 2026-04-10 17:03:25,197 | INFO | __main__ | Processando 15511823000159
 2026-04-10 17:03:25,199 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 15511823000159
+2026-04-14 08:58:52,362 | INFO | __main__ | Sem registros. Aguardando 5 minutos...
+2026-04-14 09:02:54,933 | INFO | __main__ | Sem registros. Aguardando 5 minutos...
+2026-04-14 09:07:31,211 | INFO | __main__ | Sem registros. Aguardando 5 minutos...
+2026-04-14 09:08:01,317 | INFO | __main__ | Processando 16881767000700
+2026-04-14 09:08:01,325 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 16881767000700
+2026-04-14 09:08:12,708 | ERROR | __main__ | Erro no worker: cannot access local variable 'status_simples' where it is not associated with a value
+2026-04-14 09:16:26,526 | INFO | __main__ | Processando 16881767000700
+2026-04-14 09:16:26,530 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 16881767000700
+2026-04-14 09:16:31,861 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 09:21:32,313 | INFO | __main__ | Processando 16881767000700
+2026-04-14 09:21:32,317 | INFO | __main__ | CNPJ 16881767000700 já possui consulta para o pedido 18792313. Pulando processamento.
+2026-04-14 09:21:32,317 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 09:26:32,767 | INFO | __main__ | Processando 16881767000700
+2026-04-14 09:26:32,770 | INFO | __main__ | CNPJ 16881767000700 já possui consulta para o pedido 18792313. Pulando processamento.
+2026-04-14 09:26:32,771 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 09:31:33,218 | INFO | __main__ | Processando 16881767000700
+2026-04-14 09:31:33,221 | INFO | __main__ | CNPJ 16881767000700 já possui consulta para o pedido 18792313. Pulando processamento.
+2026-04-14 09:31:33,222 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 09:39:47,249 | INFO | __main__ | Processando 16881767000700
+2026-04-14 09:39:47,258 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 16881767000700
+2026-04-14 09:39:59,594 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 10:23:39,233 | ERROR | __main__ | Erro no worker: ORA-00904: "NROREGTRIBCLIEEMP": invalid identifier
+Help: https://docs.oracle.com/error-help/db/ora-00904/
+2026-04-14 10:24:09,412 | ERROR | __main__ | Erro no worker: ORA-00904: "NROREGTRIBCLIEEMP": invalid identifier
+Help: https://docs.oracle.com/error-help/db/ora-00904/
+2026-04-14 10:25:19,443 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:25:19,452 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 72704943000106
+2026-04-14 10:26:00,659 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:26:00,666 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 72704943000106
+2026-04-14 10:26:17,026 | INFO | __main__ | Regra 1: SIMPLES_NACIONAL + COD_REG=3. Nenhuma ação.
+2026-04-14 10:26:17,027 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 10:42:41,779 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,782 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792314. Pulando processamento.
+2026-04-14 10:42:41,782 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,785 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,786 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,786 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,788 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,789 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,789 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,791 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,791 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,791 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,793 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,793 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,794 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,795 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,795 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,796 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,797 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,797 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,798 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,799 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,800 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,800 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,802 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,802 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,802 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,804 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,804 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,804 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,807 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,807 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,807 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,810 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,810 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,810 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,812 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,812 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,812 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,814 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,814 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,815 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,816 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,816 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,817 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,818 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,819 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,819 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,821 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,821 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,821 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,823 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,824 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,824 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,826 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,826 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,826 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,828 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,828 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,828 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,830 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,830 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,831 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,832 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,833 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,833 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,834 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,835 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,835 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,837 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,837 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,837 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,839 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,839 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,839 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,841 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,841 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,841 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,843 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,843 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,843 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,845 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,845 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,846 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,847 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,847 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,848 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,849 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,849 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,849 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,851 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,851 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,851 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,853 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,853 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,853 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,855 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,855 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,855 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,857 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,857 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,857 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,859 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,859 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,859 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,861 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,861 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,861 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:42:41,863 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:42:41,863 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:42:41,863 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 10:45:24,866 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,870 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792314. Pulando processamento.
+2026-04-14 10:45:24,870 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,873 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,874 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,874 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,877 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,878 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,878 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,881 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,881 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,881 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,884 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,884 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,884 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,886 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,887 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,887 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,889 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,889 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,889 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,891 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,891 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,891 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,893 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,893 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,893 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,895 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,910 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,910 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,913 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,913 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,913 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,916 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,916 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,916 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,919 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,919 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,919 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,921 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,921 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,922 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,923 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,923 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,924 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,926 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,926 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,927 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,929 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,931 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,931 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,933 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,934 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,934 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,936 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,936 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,937 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,938 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,939 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,939 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,941 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,941 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,941 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,943 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,944 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,944 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,946 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,947 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,947 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,949 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,950 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,950 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,952 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,952 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,952 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,953 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,954 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,954 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,956 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,956 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,956 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,958 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,958 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,958 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,960 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,960 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,960 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,962 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,962 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,962 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,963 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,964 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,964 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,965 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,966 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,966 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,967 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,968 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,968 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,969 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,970 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,970 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,971 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,972 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,972 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,974 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,974 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,974 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:45:24,976 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:45:24,976 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:45:24,976 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 10:53:20,664 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,678 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792314. Pulando processamento.
+2026-04-14 10:53:20,678 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,682 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,682 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,707 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,710 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,710 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,714 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,716 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,716 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,720 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,721 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,721 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,723 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,725 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,725 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,727 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,729 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,729 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,731 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,732 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,732 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,735 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,736 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,737 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,739 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,741 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,741 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,743 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,745 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,745 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,747 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,749 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,749 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,752 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,754 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,754 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,756 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,758 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,759 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,761 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,763 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,763 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,765 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,767 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,767 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,770 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,772 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,772 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,774 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,775 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,776 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,778 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,780 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,781 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,783 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,785 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,785 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,787 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,789 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,789 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,792 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,793 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,794 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,797 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,798 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,799 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,801 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,803 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,803 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,805 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,807 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,808 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,810 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,812 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,812 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,814 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,816 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,816 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,818 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,820 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,820 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,823 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,825 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,825 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,828 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,829 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,830 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,832 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,834 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,835 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,838 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,840 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,841 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,843 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,844 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,844 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,846 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,848 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,848 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,850 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,853 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,853 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,856 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,858 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,858 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,861 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:53:20,863 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-14 10:53:20,863 | INFO | __main__ | Status cadastral para 72704943000106 já consultado hoje: HABILITADO
+2026-04-14 10:53:20,866 | INFO | __main__ | Ciclo finalizado.
+2026-04-14 10:54:30,409 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,412 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792314. Pulando processamento.
+2026-04-14 10:54:30,412 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,414 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792307. Pulando processamento.
+2026-04-14 10:54:30,414 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,416 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792341. Pulando processamento.
+2026-04-14 10:54:30,416 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,418 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792324. Pulando processamento.
+2026-04-14 10:54:30,418 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,420 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792330. Pulando processamento.
+2026-04-14 10:54:30,420 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,422 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792331. Pulando processamento.
+2026-04-14 10:54:30,423 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,424 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792332. Pulando processamento.
+2026-04-14 10:54:30,425 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,426 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792333. Pulando processamento.
+2026-04-14 10:54:30,427 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,429 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792335. Pulando processamento.
+2026-04-14 10:54:30,429 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,431 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792336. Pulando processamento.
+2026-04-14 10:54:30,432 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,433 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792337. Pulando processamento.
+2026-04-14 10:54:30,433 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,434 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792338. Pulando processamento.
+2026-04-14 10:54:30,434 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,435 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792334. Pulando processamento.
+2026-04-14 10:54:30,436 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,437 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792340. Pulando processamento.
+2026-04-14 10:54:30,437 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,438 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792342. Pulando processamento.
+2026-04-14 10:54:30,439 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,439 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792343. Pulando processamento.
+2026-04-14 10:54:30,440 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,440 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792309. Pulando processamento.
+2026-04-14 10:54:30,441 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,441 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792325. Pulando processamento.
+2026-04-14 10:54:30,442 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,442 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792326. Pulando processamento.
+2026-04-14 10:54:30,443 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,443 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792327. Pulando processamento.
+2026-04-14 10:54:30,443 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,444 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792328. Pulando processamento.
+2026-04-14 10:54:30,444 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,445 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792329. Pulando processamento.
+2026-04-14 10:54:30,445 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,446 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792344. Pulando processamento.
+2026-04-14 10:54:30,446 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,446 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792310. Pulando processamento.
+2026-04-14 10:54:30,446 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,447 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792319. Pulando processamento.
+2026-04-14 10:54:30,447 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,448 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792320. Pulando processamento.
+2026-04-14 10:54:30,449 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,450 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792321. Pulando processamento.
+2026-04-14 10:54:30,450 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,451 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792322. Pulando processamento.
+2026-04-14 10:54:30,451 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,453 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792323. Pulando processamento.
+2026-04-14 10:54:30,455 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,456 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792339. Pulando processamento.
+2026-04-14 10:54:30,457 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:30,457 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792308. Pulando processamento.
+2026-04-14 10:54:30,458 | INFO | __main__ | Processando 16881767000700
+2026-04-14 10:54:30,459 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 16881767000700
+2026-04-14 10:54:36,755 | INFO | __main__ | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-14 10:54:36,757 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:36,760 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792311. Pulando processamento.
+2026-04-14 10:54:36,761 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:36,770 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792312. Pulando processamento.
+2026-04-14 10:54:36,771 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:36,772 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792315. Pulando processamento.
+2026-04-14 10:54:36,772 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:36,773 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792316. Pulando processamento.
+2026-04-14 10:54:36,773 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:36,774 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792317. Pulando processamento.
+2026-04-14 10:54:36,774 | INFO | __main__ | Processando 72704943000106
+2026-04-14 10:54:36,775 | INFO | __main__ | CNPJ 72704943000106 já possui consulta para o pedido 18792318. Pulando processamento.
+2026-04-14 10:54:36,775 | INFO | __main__ | Ciclo finalizado.
+2026-04-16 14:57:48,276 | INFO | __main__ | Processando 07346827000109
+2026-04-16 14:57:48,283 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-04-16 14:57:57,409 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-16 14:57:57,410 | INFO | __main__ | Processando 06996686000107
+2026-04-16 14:57:57,414 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-16 14:58:12,081 | INFO | app.services.regras_regime | Regra 1: SIMPLES_NACIONAL + COD_REG=3. Nenhuma ação.
+2026-04-16 14:58:12,083 | INFO | __main__ | Processando 26109110000180
+2026-04-16 14:58:12,085 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26109110000180
+2026-04-16 14:58:18,668 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-16 14:58:18,669 | INFO | __main__ | Processando 06996686000107
+2026-04-16 14:58:18,672 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-16 14:58:18,672 | INFO | __main__ | Status cadastral para 06996686000107 já consultado hoje: HABILITADO
+2026-04-16 14:58:18,716 | INFO | __main__ | Processando 26109110000180
+2026-04-16 14:58:18,719 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-16 14:58:18,737 | INFO | __main__ | Status cadastral para 26109110000180 já consultado hoje: HABILITADO
+2026-04-16 14:58:18,741 | INFO | __main__ | Ciclo finalizado.
+2026-04-16 15:59:00,962 | INFO | __main__ | Processando 07346827000109
+2026-04-16 15:59:00,997 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-04-16 15:59:06,683 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-16 15:59:06,691 | INFO | __main__ | Processando 06996686000107
+2026-04-16 15:59:06,695 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-16 15:59:17,270 | INFO | app.services.regras_regime | Regra 1: SIMPLES_NACIONAL + COD_REG=3. Nenhuma ação.
+2026-04-16 15:59:17,275 | INFO | __main__ | Processando 26109110000180
+2026-04-16 15:59:17,279 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26109110000180
+2026-04-16 15:59:27,840 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-16 15:59:27,844 | INFO | __main__ | Processando 06996686000107
+2026-04-16 15:59:27,846 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-16 15:59:27,846 | INFO | __main__ | Status cadastral para 06996686000107 já consultado hoje: HABILITADO
+2026-04-16 15:59:27,863 | INFO | __main__ | Processando 26109110000180
+2026-04-16 15:59:27,865 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-16 15:59:27,866 | INFO | __main__ | Status cadastral para 26109110000180 já consultado hoje: HABILITADO
+2026-04-16 15:59:27,869 | INFO | __main__ | Ciclo finalizado.
+2026-04-23 12:47:17,655 | INFO | __main__ | Processando 07346827000109
+2026-04-23 12:47:17,665 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-04-23 12:47:26,316 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 12:47:26,334 | INFO | __main__ | Processando 06996686000107
+2026-04-23 12:47:26,337 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 12:47:32,621 | INFO | app.services.regras_regime | Regra 1: SIMPLES_NACIONAL + COD_REG=3. Nenhuma ação.
+2026-04-23 12:47:32,624 | INFO | __main__ | Processando 26109110000180
+2026-04-23 12:47:32,626 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26109110000180
+2026-04-23 12:47:44,943 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 12:47:44,947 | INFO | __main__ | Processando 06996686000107
+2026-04-23 12:47:44,949 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 12:47:44,950 | INFO | __main__ | Status cadastral para 06996686000107 já consultado hoje: HABILITADO
+2026-04-23 12:47:44,959 | INFO | __main__ | Processando 26109110000180
+2026-04-23 12:47:44,963 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 12:47:44,963 | INFO | __main__ | Status cadastral para 26109110000180 já consultado hoje: HABILITADO
+2026-04-23 12:47:44,966 | INFO | __main__ | Ciclo finalizado.
+2026-04-23 12:51:44,907 | INFO | __main__ | Processando 07346827000109
+2026-04-23 12:51:44,915 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-04-23 12:51:52,502 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 12:51:52,528 | INFO | __main__ | Processando 06996686000107
+2026-04-23 12:51:52,530 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 12:52:02,832 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 12:52:02,842 | ERROR | __main__ | Erro no worker: ORA-01722: invalid number
+Help: https://docs.oracle.com/error-help/db/ora-01722/
+2026-04-23 12:52:33,319 | INFO | __main__ | Processando 07346827000109
+2026-04-23 12:52:33,323 | INFO | __main__ | CNPJ 07346827000109 já possui consulta para o pedido 20976638. Pulando processamento.
+2026-04-23 12:52:33,324 | INFO | __main__ | Processando 06996686000107
+2026-04-23 12:52:33,332 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 12:52:43,616 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 12:52:43,621 | ERROR | __main__ | Erro no worker: ORA-01722: invalid number
+Help: https://docs.oracle.com/error-help/db/ora-01722/
+2026-04-23 13:30:02,089 | INFO | __main__ | Processando 07346827000109
+2026-04-23 13:30:02,092 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-04-23 13:30:11,788 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 13:30:11,808 | INFO | __main__ | Processando 06996686000107
+2026-04-23 13:30:11,810 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 13:30:23,489 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 13:30:23,539 | INFO | __main__ | Processando 26109110000180
+2026-04-23 13:30:23,541 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26109110000180
+2026-04-23 13:30:38,118 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 13:30:38,122 | INFO | __main__ | Processando 06996686000107
+2026-04-23 13:30:38,126 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 13:30:38,126 | INFO | __main__ | Status cadastral para 06996686000107 já consultado hoje: HABILITADO
+2026-04-23 13:30:38,154 | INFO | __main__ | Processando 26109110000180
+2026-04-23 13:30:38,157 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 13:30:38,158 | INFO | __main__ | Status cadastral para 26109110000180 já consultado hoje: HABILITADO
+2026-04-23 13:30:38,163 | INFO | __main__ | Ciclo finalizado.
+2026-04-23 13:33:54,845 | INFO | __main__ | Processando 07346827000109
+2026-04-23 13:33:54,849 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-04-23 13:34:07,793 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 13:34:07,797 | INFO | __main__ | Processando 06996686000107
+2026-04-23 13:34:07,800 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 13:34:12,308 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 13:34:12,328 | ERROR | __main__ | Erro no worker: ORA-00001: unique constraint (CONSINCO.SYS_C0039819) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2026-04-23 13:37:26,003 | INFO | __main__ | Processando 07346827000109
+2026-04-23 13:37:26,007 | INFO | __main__ | CNPJ 07346827000109 já possui consulta para o pedido 20976638. Pulando processamento.
+2026-04-23 13:37:26,007 | INFO | __main__ | Processando 06996686000107
+2026-04-23 13:37:26,011 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 13:37:32,530 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 13:37:32,535 | ERROR | __main__ | Erro no worker: DPY-4009: 6 positional bind values are required but 3 were provided
+2026-04-23 13:53:31,621 | INFO | __main__ | Processando 07346827000109
+2026-04-23 13:53:31,624 | INFO | __main__ | CNPJ 07346827000109 já possui consulta para o pedido 20976638. Pulando processamento.
+2026-04-23 13:53:31,624 | INFO | __main__ | Processando 06996686000107
+2026-04-23 13:53:31,626 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 13:53:42,185 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 13:53:42,190 | ERROR | __main__ | Erro no worker: DPY-4009: 6 positional bind values are required but 3 were provided
+2026-04-23 13:54:59,304 | INFO | __main__ | Processando 07346827000109
+2026-04-23 13:54:59,308 | INFO | __main__ | CNPJ 07346827000109 já possui consulta para o pedido 20976638. Pulando processamento.
+2026-04-23 13:54:59,308 | INFO | __main__ | Processando 06996686000107
+2026-04-23 13:54:59,312 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 13:55:14,831 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 13:55:14,854 | ERROR | __main__ | Erro no worker: ORA-00001: unique constraint (CONSINCO.SYS_C0039819) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2026-04-23 14:02:43,140 | INFO | __main__ | Processando 07346827000109
+2026-04-23 14:02:43,145 | INFO | __main__ | CNPJ 07346827000109 já possui consulta para o pedido 20976638. Pulando processamento.
+2026-04-23 14:02:43,147 | INFO | __main__ | Processando 06996686000107
+2026-04-23 14:02:43,150 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 14:02:52,803 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 14:02:52,820 | ERROR | __main__ | Erro no worker: ORA-01031: insufficient privileges
+Help: https://docs.oracle.com/error-help/db/ora-01031/
+2026-04-23 14:13:07,575 | INFO | __main__ | Processando 07346827000109
+2026-04-23 14:13:07,579 | INFO | __main__ | CNPJ 07346827000109 já possui consulta para o pedido 20976638. Pulando processamento.
+2026-04-23 14:13:07,580 | INFO | __main__ | Processando 06996686000107
+2026-04-23 14:13:07,584 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 14:13:22,128 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 14:13:22,148 | ERROR | __main__ | Erro no worker: ORA-00001: unique constraint (CONSINCO.SYS_C0039819) violated
+Help: https://docs.oracle.com/error-help/db/ora-00001/
+2026-04-23 14:15:42,591 | INFO | __main__ | Processando 07346827000109
+2026-04-23 14:15:42,598 | INFO | __main__ | CNPJ 07346827000109 já possui consulta para o pedido 20976638. Pulando processamento.
+2026-04-23 14:15:42,598 | INFO | __main__ | Processando 06996686000107
+2026-04-23 14:15:42,610 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 14:15:57,161 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 14:15:57,230 | INFO | __main__ | Processando 26109110000180
+2026-04-23 14:15:57,233 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26109110000180
+2026-04-23 14:16:06,776 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 14:16:06,782 | INFO | __main__ | Processando 06996686000107
+2026-04-23 14:16:06,786 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 14:16:06,786 | INFO | __main__ | Status cadastral para 06996686000107 já consultado hoje: HABILITADO
+2026-04-23 14:16:06,817 | INFO | __main__ | Processando 26109110000180
+2026-04-23 14:16:06,820 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 14:16:06,820 | INFO | __main__ | Status cadastral para 26109110000180 já consultado hoje: HABILITADO
+2026-04-23 14:16:06,824 | INFO | __main__ | Ciclo finalizado.
+2026-04-23 14:17:30,633 | INFO | __main__ | Processando 07346827000109
+2026-04-23 14:17:30,638 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-04-23 14:17:45,242 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 14:17:45,246 | INFO | __main__ | Processando 06996686000107
+2026-04-23 14:17:45,250 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 14:17:57,801 | INFO | app.services.regras_regime | Regra 1: SIMPLES_NACIONAL + COD_REG=3. Nenhuma ação.
+2026-04-23 14:17:57,805 | INFO | __main__ | Processando 26109110000180
+2026-04-23 14:17:57,807 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26109110000180
+2026-04-23 14:18:02,347 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 14:18:02,351 | INFO | __main__ | Processando 06996686000107
+2026-04-23 14:18:02,355 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 14:18:02,355 | INFO | __main__ | Status cadastral para 06996686000107 já consultado hoje: HABILITADO
+2026-04-23 14:18:02,361 | INFO | __main__ | Processando 26109110000180
+2026-04-23 14:18:02,364 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 14:18:02,364 | INFO | __main__ | Status cadastral para 26109110000180 já consultado hoje: HABILITADO
+2026-04-23 14:18:02,368 | INFO | __main__ | Ciclo finalizado.
+2026-04-23 14:18:58,125 | INFO | __main__ | Processando 07346827000109
+2026-04-23 14:18:58,130 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-04-23 14:19:04,722 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 14:19:04,726 | INFO | __main__ | Processando 06996686000107
+2026-04-23 14:19:04,730 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-04-23 14:19:09,274 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-04-23 14:19:09,338 | INFO | __main__ | Processando 26109110000180
+2026-04-23 14:19:09,340 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26109110000180
+2026-04-23 14:19:22,927 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-04-23 14:19:22,931 | INFO | __main__ | Processando 06996686000107
+2026-04-23 14:19:22,934 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 14:19:22,935 | INFO | __main__ | Status cadastral para 06996686000107 já consultado hoje: HABILITADO
+2026-04-23 14:19:22,939 | INFO | __main__ | Processando 26109110000180
+2026-04-23 14:19:22,942 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-04-23 14:19:22,943 | INFO | __main__ | Status cadastral para 26109110000180 já consultado hoje: HABILITADO
+2026-04-23 14:19:22,947 | INFO | __main__ | Ciclo finalizado.
