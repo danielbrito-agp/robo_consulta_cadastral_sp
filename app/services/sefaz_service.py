@@ -78,7 +78,7 @@ class SefazService:
 
             if resultado.startswith("ERRO_HTTP_"):
                 logger.warning(f"Primeira tentativa falhou para CNPJ {cnpj}: {resultado}. Aguardando 50s para nova tentativa...")
-                time.sleep(50)
+                time.sleep(120)
                 logger.info(f"Realizando nova tentativa para CNPJ {cnpj}")
                 resultado = _executar_consulta()
                 if resultado.startswith("ERRO_HTTP_"):
