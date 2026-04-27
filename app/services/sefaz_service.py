@@ -52,7 +52,7 @@ class SefazService:
 
                 if xregapur is not None and xregapur.text:
                     regime_txt = xregapur.text.strip().upper()
-                    regime = "SIMPLES_NACIONAL" if regime_txt == "SIMPLES NACIONAL" else "NAO_SIMPLES_NACIONAL"
+                    regime = "SIMPLES_NACIONAL" if regime_txt in {"SIMPLES NACIONAL", "SIMPLES NACIONAL - MEI"} else "NAO_SIMPLES_NACIONAL"
 
                 if csit is not None and csit.text:
                     situacao = "HABILITADO" if csit.text.strip() == "1" else "NAO_HABILITADO"
