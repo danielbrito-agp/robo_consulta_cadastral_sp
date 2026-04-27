@@ -10,7 +10,8 @@ Este projeto executa um **worker contínuo** que:
 2. Verifica no DW se o CNPJ já foi consultado no dia.
 3. Quando necessário, consulta o status cadastral na SEFAZ.
 4. Persiste o resultado no DW.
-5. Para status **"NÃO HABILITADO"**, possui suporte à lógica de cancelamento no operacional (atualmente comentada no fluxo principal).
+5. Salva os dados completos do XML de retorno na tabela `SEFAZ_CONSULTA_XML`.
+6. Para status **"NÃO HABILITADO"**, possui suporte à lógica de cancelamento no operacional (atualmente comentada no fluxo principal).
 
 ## Arquitetura
 
@@ -20,6 +21,7 @@ Este projeto executa um **worker contínuo** que:
 - **Logging com rotação de arquivo + console:** `app/core/logger.py`
 - **Consulta de clientes no operacional:** `app/repositories/cliente_repository.py`
 - **Persistência/consulta de status no DW:** `app/repositories/status_repository.py`
+- **Persistência dos dados completos do XML SEFAZ:** `app/repositories/consulta_xml_repository.py`
 - **Consulta SEFAZ com retry:** `app/services/sefaz_service.py`
 - **Cancelamento de pedido (procedure):** `app/services/cancelamento_service.py`
 - **Integrações de segredo/certificado:** `app/integrations/extrair_token.py`
@@ -98,9 +100,23 @@ python -m app.main
 3. Busca clientes na tabela `consinco.gpv_clientesefaz` (filtro atual por `UF = 'SP'`).
 4. Para cada cliente:
    - Verifica se há status de hoje em `SITUACAO_CADASTRAL_CNPJ`.
-   - Se não houver, consulta SEFAZ e grava status no DW.
+   - Se não houver, consulta SEFAZ, salva os campos do XML em `SEFAZ_CONSULTA_XML` e grava status no DW.
 5. Aguarda `INTERVALO_SEM_DADOS` (padrão: 300s) e repete o ciclo.
 6. Em exceções no loop principal, aguarda 30s antes de retomar.
+
+## Persistência do XML da SEFAZ
+
+Além do status consolidado em `SITUACAO_CADASTRAL_CNPJ`, o worker também persiste o XML completo retornado pela consulta na tabela `SEFAZ_CONSULTA_XML`.
+
+- O XML bruto é armazenado em `XML_BRUTO` (CLOB).
+- Também são salvos campos extraídos para consulta analítica:
+  - identificação: `CNPJ`, `IE`, `UF`, `CSIT`
+  - crédito/documento: `IND_CRED_NFE`, `IND_CRED_CTE`
+  - cadastro: `XNOME`, `XFANT`, `XREG_APUR`, `CNAE`
+  - datas: `DHI_CONSULTA`, `D_INI_ATIV`, `D_ULT_SIT`
+  - endereço: `XLGR`, `NRO`, `XBAIRRO`, `CMUN`, `XMUN`, `CEP`
+
+Essa gravação ocorre no mesmo ciclo da consulta nova na SEFAZ, antes do `commit` no DW.
 
 ## Logging e observabilidade
 
