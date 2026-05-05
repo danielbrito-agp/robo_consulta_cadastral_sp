@@ -1,6 +1,6 @@
 from datetime import date, datetime
 
-
+# Funções auxiliares para converter strings ISO 8601 em objetos datetime e date
 def _parse_iso_datetime_tz(value):
     if not value:
         return None
@@ -9,7 +9,7 @@ def _parse_iso_datetime_tz(value):
     except ValueError:
         return None
 
-
+# A função _parse_iso_date tenta converter uma string ISO 8601 em um objeto date. Se a string for inválida ou None, retorna None.
 def _parse_iso_date(value):
     if not value:
         return None
@@ -18,7 +18,11 @@ def _parse_iso_date(value):
     except ValueError:
         return None
 
-
+'''
+Função inserir_consulta_xml recebe um cursor de banco de dados e um dicionário contendo os dados XML da consulta SEFAZ.
+ Ela extrai os campos relevantes do dicionário, converte as datas usando as funções auxiliares e insere os dados
+   na tabela SEFAZ_CONSULTA_XML usando uma instrução SQL parametrizada.
+'''
 def inserir_consulta_xml(cursor, dados_xml):
     dh_consulta = _parse_iso_datetime_tz(dados_xml.get("dh_consulta"))
     d_ini_ativ = _parse_iso_date(dados_xml.get("d_ini_ativ"))

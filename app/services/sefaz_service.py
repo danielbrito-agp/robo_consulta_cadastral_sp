@@ -32,28 +32,59 @@ class SefazService:
         text = value.strip()
         return text or None
 
-    def _extrair_dados_xml(self, xml_text):
+    @staticmethod
+    def _normalizar_ie(ie):
+        if ie is None:
+            return None
+        return "".join(ch for ch in str(ie).strip().upper() if ch.isalnum()) or None
+
+    def _selecionar_inf_cad(self, root, ie_alvo=None):
+        inf_cads = root.findall(".//{*}infCad")
+        if not inf_cads:
+            return None
+
+        ie_alvo_normalizado = self._normalizar_ie(ie_alvo)
+        if not ie_alvo_normalizado:
+            return inf_cads[0]
+
+        for inf_cad in inf_cads:
+            ie_xml = self._get_text(inf_cad, "{*}IE")
+            if self._normalizar_ie(ie_xml) == ie_alvo_normalizado:
+                return inf_cad
+
+        logger.warning(
+            "IE %s nao encontrada no XML retornado pela SEFAZ. Utilizando o primeiro infCad.",
+            ie_alvo,
+        )
+        return inf_cads[0]
+
+    def _extrair_dados_xml(self, xml_text, ie_alvo=None):
         root = ET.fromstring(xml_text)
+        inf_cad = self._selecionar_inf_cad(root, ie_alvo)
+
+        if inf_cad is None:
+            return {"xml_bruto": xml_text}, None, None
+
         dados_xml = {
-            "cnpj": self._get_text(root, ".//{*}infCad/{*}CNPJ"),
-            "ie": self._get_text(root, ".//{*}infCad/{*}IE"),
-            "uf": self._get_text(root, ".//{*}infCad/{*}UF"),
-            "csit": self._get_text(root, ".//{*}infCad/{*}cSit"),
-            "ind_cred_nfe": self._get_text(root, ".//{*}infCad/{*}indCredNFe"),
-            "ind_cred_cte": self._get_text(root, ".//{*}infCad/{*}indCredCTe"),
-            "xnome": self._get_text(root, ".//{*}infCad/{*}xNome"),
-            "xfant": self._get_text(root, ".//{*}infCad/{*}xFant"),
-            "xreg_apur": self._get_text(root, ".//{*}infCad/{*}xRegApur"),
-            "cnae": self._get_text(root, ".//{*}infCad/{*}CNAE"),
+            "cnpj": self._get_text(inf_cad, "{*}CNPJ"),
+            "ie": self._get_text(inf_cad, "{*}IE"),
+            "uf": self._get_text(inf_cad, "{*}UF"),
+            "csit": self._get_text(inf_cad, "{*}cSit"),
+            "ind_cred_nfe": self._get_text(inf_cad, "{*}indCredNFe"),
+            "ind_cred_cte": self._get_text(inf_cad, "{*}indCredCTe"),
+            "xnome": self._get_text(inf_cad, "{*}xNome"),
+            "xfant": self._get_text(inf_cad, "{*}xFant"),
+            "xreg_apur": self._get_text(inf_cad, "{*}xRegApur"),
+            "cnae": self._get_text(inf_cad, "{*}CNAE"),
             "dh_consulta": self._get_text(root, ".//{*}infCons/{*}dhCons"),
-            "d_ini_ativ": self._get_text(root, ".//{*}infCad/{*}dIniAtiv"),
-            "d_ult_sit": self._get_text(root, ".//{*}infCad/{*}dUltSit"),
-            "xlgr": self._get_text(root, ".//{*}infCad/{*}ender/{*}xLgr"),
-            "nro": self._get_text(root, ".//{*}infCad/{*}ender/{*}nro"),
-            "xbairro": self._get_text(root, ".//{*}infCad/{*}ender/{*}xBairro"),
-            "cmun": self._get_text(root, ".//{*}infCad/{*}ender/{*}cMun"),
-            "xmun": self._get_text(root, ".//{*}infCad/{*}ender/{*}xMun"),
-            "cep": self._get_text(root, ".//{*}infCad/{*}ender/{*}CEP"),
+            "d_ini_ativ": self._get_text(inf_cad, "{*}dIniAtiv"),
+            "d_ult_sit": self._get_text(inf_cad, "{*}dUltSit"),
+            "xlgr": self._get_text(inf_cad, "{*}ender/{*}xLgr"),
+            "nro": self._get_text(inf_cad, "{*}ender/{*}nro"),
+            "xbairro": self._get_text(inf_cad, "{*}ender/{*}xBairro"),
+            "cmun": self._get_text(inf_cad, "{*}ender/{*}cMun"),
+            "xmun": self._get_text(inf_cad, "{*}ender/{*}xMun"),
+            "cep": self._get_text(inf_cad, "{*}ender/{*}CEP"),
             "xml_bruto": xml_text,
         }
 
@@ -70,7 +101,7 @@ class SefazService:
         return dados_xml, regime, situacao
 
     @retry()
-    def consultar(self, cnpj, uf):
+    def consultar(self, cnpj, uf, ie=None):
         def _executar_consulta():
             time.sleep(random.randint(4, 16))
             resultado = realizar.realizar_consulta_cadastral(
@@ -87,7 +118,7 @@ class SefazService:
                 Caso a resposta da SEFAZ não seja bem-sucedida, o robô registrará o código de erro HTTP para diagnóstico.
             '''
             if resultado.status_code == 200:
-                dados_xml, regime, situacao = self._extrair_dados_xml(resultado.text)
+                dados_xml, regime, situacao = self._extrair_dados_xml(resultado.text, ie)
                 resultado_status = "TAG_NAO_ENCONTRADA"
 
                 if regime and situacao:

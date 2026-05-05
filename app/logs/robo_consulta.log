@@ -7582,3 +7582,25 @@ Help: https://docs.oracle.com/error-help/db/ora-00001/
 2026-04-28 07:36:36,017 | INFO | __main__ | Já consultado hoje: HABILITADO
 2026-04-28 07:36:36,018 | INFO | __main__ | Status cadastral para 07346827000109 já consultado hoje: HABILITADO
 2026-04-28 07:36:36,026 | INFO | __main__ | Ciclo finalizado.
+2026-05-05 12:17:30,079 | INFO | __main__ | Processando 07346827000109
+2026-05-05 12:17:30,088 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 07346827000109
+2026-05-05 12:17:46,726 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-05-05 12:17:46,739 | INFO | __main__ | Processando 06996686000107
+2026-05-05 12:17:46,743 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 06996686000107
+2026-05-05 12:17:59,247 | INFO | app.services.regras_regime | Regra 1: SIMPLES_NACIONAL + COD_REG=3. Nenhuma ação.
+2026-05-05 12:17:59,251 | INFO | __main__ | Processando 50939584000133
+2026-05-05 12:17:59,255 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 50939584000133
+2026-05-05 12:18:10,764 | INFO | app.services.regras_regime | Regra 4: SIMPLES_NACIONAL + COD_REG!=3. Inserindo registro de tributação.
+2026-05-05 12:18:10,816 | INFO | __main__ | Processando 26109110000180
+2026-05-05 12:18:10,820 | INFO | app.services.sefaz_service | Iniciando consulta para CNPJ 26109110000180
+2026-05-05 12:18:24,315 | INFO | app.services.regras_regime | Regra 2: NAO_SIMPLES_NACIONAL + COD_REG!=3. Nenhuma ação.
+2026-05-05 12:18:24,319 | INFO | __main__ | Processando 06996686000107
+2026-05-05 12:18:24,323 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-05-05 12:18:24,323 | INFO | __main__ | Status cadastral para 06996686000107 já consultado hoje: HABILITADO
+2026-05-05 12:18:24,328 | INFO | __main__ | Processando 26109110000180
+2026-05-05 12:18:24,331 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-05-05 12:18:24,331 | INFO | __main__ | Status cadastral para 26109110000180 já consultado hoje: HABILITADO
+2026-05-05 12:18:24,335 | INFO | __main__ | Processando 07346827000109
+2026-05-05 12:18:24,336 | INFO | __main__ | Já consultado hoje: HABILITADO
+2026-05-05 12:18:24,336 | INFO | __main__ | Status cadastral para 07346827000109 já consultado hoje: HABILITADO
+2026-05-05 12:18:24,339 | INFO | __main__ | Ciclo finalizado.

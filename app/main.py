@@ -49,7 +49,7 @@ def worker():
                     time.sleep(settings.INTERVALO_SEM_DADOS)
                     continue
 
-                for cnpj, uf, nro_pedido, nro_empresa, cod_reg_tributacao, _regime_tributacao, seq_pessoa in clientes:
+                for cnpj, uf, ie, nro_pedido, nro_empresa, cod_reg_tributacao, _regime_tributacao, seq_pessoa in clientes:
 
                     logger.info(f"Processando {cnpj}")
                     
@@ -106,7 +106,7 @@ def worker():
                         continue
 
                     # Nova consulta SEFAZ
-                    resultado_consulta = sefaz_service.consultar(cnpj, uf)
+                    resultado_consulta = sefaz_service.consultar(cnpj, uf, ie)
                     status, status_simples = extrair_status_e_regime(resultado_consulta["resultado"])
 
                     if resultado_consulta["dados_xml"]:

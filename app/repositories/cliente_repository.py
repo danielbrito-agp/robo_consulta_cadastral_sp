@@ -3,7 +3,7 @@ from app.core.config import settings
 def buscar_clientes_para_processar(cursor):
 
     sql = f"""
-        SELECT CNPJ, UF, NROPEDVENDA, NROEMPRESA, COD_REG_TRIBUTACAO, REGIME_TRIBUTACAO, SEQPESSOA
+        SELECT CNPJ, UF, IE, NROPEDVENDA, NROEMPRESA, COD_REG_TRIBUTACAO, REGIME_TRIBUTACAO, SEQPESSOA
         FROM consinco.gpv_clientesefaz
         WHERE UF = 'SP'
     """
