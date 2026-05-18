@@ -99,9 +99,9 @@ def worker():
                             # Se não habilitado → cancela no operacional
                             if status_hoje == "NAO_HABILITADO":
                                 #usar esse print para ver casos que poderiam ser cancelados (uso de teste)
-                                print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
-                                # cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
-                                # conn_op.commit()
+                                # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
+                                cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
+                                conn_op.commit()
 
                         continue
 
@@ -141,9 +141,9 @@ def worker():
                     # Se não habilitado → cancela no operacional
                     if status == "NAO_HABILITADO":
                         #usar esse print para ver casos que poderiam ser cancelados (uso de teste)
-                        print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
-                        # cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
-                        # conn_op.commit()
+                        # print(f'Pedido: {nro_pedido} | Empresa: {nro_empresa}')
+                        cancelar_pedido(cursor_op, nro_pedido, nro_empresa)
+                        conn_op.commit()
 
                 logger.info("Ciclo finalizado.")
                 time.sleep(settings.INTERVALO_SEM_DADOS)
