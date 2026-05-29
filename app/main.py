@@ -115,6 +115,7 @@ def worker():
                     status_c5 = "NAO_ALTERADO"
 
                     # Aplica regras de tributação (DELETE/INSERT na tabela de regiões tributárias)
+                    # Se o status do Simples Nacional estiver disponível, aplica as regras de tributação.
                     if status_simples:
                         alterou_c5 = aplicar_regras_tributacao(
                             status_simples,
