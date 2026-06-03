@@ -23,13 +23,18 @@ def deletar_registro_tributacao(cursor, nro_reg_trib, seq_pessoa):
 
 def inserir_registro_tributacao(cursor, nro_reg_trib, seq_pessoa):
     """
-    Insere novo registro de tributação para o CNPJ (identified by seq_pessoa)
+    Substitui o registro de tributação para o CNPJ (identified by seq_pessoa)
     com código de regime tributário = nro_reg_trib (3 = Simples Nacional).
     Cria registros para as filiais padrão: 713 e 733.
     """
     filiais = [713, 733]
     
     for nro_empresa in filiais:
+        cursor.execute("""
+            DELETE FROM consinco.MRL_CLIENTEREGTRIBUTACAO
+            WHERE seqpessoa = :1 AND nroempresa = :2
+        """, [seq_pessoa, nro_empresa])
+
         cursor.execute("""
             INSERT INTO consinco.MRL_CLIENTEREGTRIBUTACAO 
                 (nroregtribclieemp, seqpessoa, NROEMPRESA, DTAALTERACAO, USUALTERACAO)
